@@ -1,0 +1,30 @@
+num = int(input("adad: "))
+
+if(num < 0):
+	print("ridiiiiiiiiiiiiiii")
+
+elif(num%2 == 0):
+	print("adad is even")
+
+else:
+	print("adad is odd")
+
+
+username = "Duh"
+password = 12345
+
+user = input("vared kon: ")
+pass = int(input("pass bzn: "))
+
+while true:
+
+	if(username == user and password == pass):
+		print("barikalaaaaaaaaaa")
+		break
+
+	elif(username != user or password != pass):
+		print("yekja ridiiiiiiiiii")
+		user = input("vared kon: ")
+		pass = int(input("pass bzn: "))
+		continue
+
