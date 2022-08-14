@@ -2,16 +2,14 @@
 print("\n\nNote:If a Number is equal to It's reverse It's called a Palindrome Number. ")
 number = int(input("Enter you're Desired Number: "))
 
-const = (0 , 10)
-
 original_number = number
 
-reverse_number = const[0]
+reverse_number = 0
 
-while number > const[0]:
-    remainder = number % const[1]
-    reverse_number = (reverse_number * const[1]) + remainder
-    number = number // const[1]
+while number > 0:
+    remainder = number % 10
+    reverse_number = (reverse_number * 10) + remainder
+    number = number // 10
     
 if original_number == reverse_number:
 
