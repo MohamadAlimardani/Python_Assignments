@@ -16,16 +16,16 @@ def Print_Main_Menu():
 
 def Print_Basic_Menu():
     print(" " + 4 * "*" + " Basic Menu " + 4 * "*" + "\n " 
-            + 23 * "_" + "\n" + "| -Choose an Option: " + 3 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-            + "\n| 1.Expression." + 9 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-            + "\n| 2.Sum." + 16 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-            + "\n| 3.Subtraction." + 8 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-            + "\n| 4.Multiplication." + 5 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-            + "\n| 5.Division." + 11 * " " + "|" + "\n" + "|" + 23 * "-" + "|" 
-            + "\n| 6.Remainder." + 10 * " " + "|" + "\n" + "|" + 23 * "-" + "|" 
-            + "\n| 7.Percentage." + 9 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-            + "\n| - Back." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-            + "\n| Q.Exit." + 15 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n")
+    + 23 * "_" + "\n" + "| -Choose an Option: " + 3 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 1.Expression." + 9 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 2.Sum." + 16 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 3.Subtraction." + 8 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 4.Multiplication." + 5 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 5.Division." + 11 * " " + "|" + "\n" + "|" + 23 * "-" + "|" 
+    + "\n| 6.Remainder." + 10 * " " + "|" + "\n" + "|" + 23 * "-" + "|" 
+    + "\n| 7.Percentage." + 9 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| - Back." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| Q.Exit." + 15 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n")
 
 def Print_Advanced_Menu():
     print(" " + 4 * "*" + " Advanced Menu " + 4 * "*" + "\n " + 23 * "_" + "\n" + "| -Choose an Option: " + 3 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
@@ -96,9 +96,9 @@ def Print_Conversions_Menu():
 
 def Inner_Print():
     print(" " + 23 * "_" + "\n" + "| -Choose an Option: " + 3 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-        + "\n| 1.Continue." + 11 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-        + "\n| - Back." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-        + "\n| Q.Exit." + 15 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n")
+    + "\n| 1.Continue." + 11 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| - Back." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| Q.Exit." + 15 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n")
 
 def Expression():
     print("Note: Only Use Parentheses for Power Calculations.\n**For the best experience Please Do Not Use Parantheses for Other Calculations.**\n\n")
