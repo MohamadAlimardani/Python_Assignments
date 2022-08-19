@@ -8,7 +8,8 @@ def Print_Smaller_Greater_Menu():
     + "\n| 2.Is it Greater?" + 6 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n")
 
 def End_Print():
-    print("\nOnly " + str(len(numbers)) + " Tries Took AI To Guess The Desired Number." + "\n\n" + "List of Numbers That AI Has Guessed: \n" + str(numbers) + "\n")
+    print("\nOnly " + str(len(numbers)) + " Tries Took AI To Guess The Desired Number." 
+    + "\n\n" + "List of Numbers That AI Has Guessed: \n" + str(numbers) + "\n")
 
 first_interval = 0
 end_interval = 99
