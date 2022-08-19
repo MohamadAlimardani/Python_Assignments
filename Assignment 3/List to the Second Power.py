@@ -1,18 +1,25 @@
 
 import random as ran
 
+numbers = []
 random_numbers = []
 second_power = []
+
 while True:
-    random_numbers.append(ran.randint(1 , 100))
-    if len(random_numbers) is 20:
-        break
-    else:
+    random_number = ran.randint(1 , 100)
+
+    if random_number in numbers:
         continue
+    
+    else:
+        numbers.append(random_number)
 
-print("\nList of Numbers: \n" + str(random_numbers) + "\n")
+    if len(numbers) == 20:
+        break
 
-for num in random_numbers:
+print("\nList of Numbers: \n" + str(numbers) + "\n")
+
+for num in numbers:
     second_power.append(num ** 2)
 
 print("List of Numbers That Raised To The Second Power: \n" + str(second_power) + "\n")
