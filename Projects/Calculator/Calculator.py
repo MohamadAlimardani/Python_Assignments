@@ -16,16 +16,16 @@ def Print_Main_Menu():
 
 def Print_Basic_Menu():
     print(" " + 4 * "*" + " Basic Menu " + 4 * "*" + "\n " 
-    + 23 * "_" + "\n" + "| -Choose an Option: " + 3 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 1.Expression." + 9 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 2.Sum." + 16 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 3.Subtraction." + 8 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 4.Multiplication." + 5 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 5.Division." + 11 * " " + "|" + "\n" + "|" + 23 * "-" + "|" 
-    + "\n| 6.Remainder." + 10 * " " + "|" + "\n" + "|" + 23 * "-" + "|" 
-    + "\n| 7.Percentage." + 9 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| - Back." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| Q.Exit." + 15 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n")
+            + 23 * "_" + "\n" + "| -Choose an Option: " + 3 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+            + "\n| 1.Expression." + 9 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+            + "\n| 2.Sum." + 16 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+            + "\n| 3.Subtraction." + 8 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+            + "\n| 4.Multiplication." + 5 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+            + "\n| 5.Division." + 11 * " " + "|" + "\n" + "|" + 23 * "-" + "|" 
+            + "\n| 6.Remainder." + 10 * " " + "|" + "\n" + "|" + 23 * "-" + "|" 
+            + "\n| 7.Percentage." + 9 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+            + "\n| - Back." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+            + "\n| Q.Exit." + 15 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n")
 
 def Print_Advanced_Menu():
     print(" " + 4 * "*" + " Advanced Menu " + 4 * "*" + "\n " + 23 * "_" + "\n" + "| -Choose an Option: " + 3 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
@@ -84,21 +84,42 @@ def Print_Conversions_Menu():
     + "\n| 1.Area." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
     + "\n| 2.BMI." + 16 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
     + "\n| 3.Data." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 4.Length." + 13 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 5.Mass." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 6.Numeral System." + 5 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 7.Speed." + 14 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 8.Temperature." + 8 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 9.Time." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 10.Volume." + 12 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 4.Numeral System." + 5 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 5.Temperature." + 8 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
     + "\n| - Back." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
     + "\n| Q.Exit." + 15 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n\n")
 
+def Print_Data_Menu():
+    print(" " + 4 * "*" + " Area Conversion " + 4 * "*" + "\n " + 23 * "_" + "\n" 
+    + "| -Choose an Option: " + 3 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 1.Bits." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 2.Bytes." + 14 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 3.KiloBytes." + 10 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 4.MegaBytes." + 10 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 5.GigaBytes." + 10 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 6.TeraBytes." + 10 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 7.PetaBytes." + 10 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n\n")
+
+def Print_Numeral_System():
+    print("\n " + 4 * "*" + " Numeral System " + 4 * "*" + "\n " + 23 * "_" + "\n" 
+    + "| -Choose an Option: " + 3 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 1.Decimal." + 12 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 2.Binary." + 13 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 3.Octal." + 14 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 4.HexaDecimal." + 8 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n\n")
+
+def Print_Temperature_Conversion():
+    print("\n " + 3 * "*" + " Temperature Unit " + 3 * "*" + "\n " + 23 * "_" + "\n" 
+    + "| -Choose an Option: " + 3 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 1.Celsius." + 12 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 2.Fahrenheit." + 9 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+    + "\n| 3.Kelvin." + 13 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n\n")
+
 def Inner_Print():
     print(" " + 23 * "_" + "\n" + "| -Choose an Option: " + 3 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| 1.Continue." + 11 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| - Back." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
-    + "\n| Q.Exit." + 15 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n")
+        + "\n| 1.Continue." + 11 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+        + "\n| - Back." + 15 * " " + "|" + "\n" + "|" + 23 * "-" + "|"
+        + "\n| Q.Exit." + 15 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n")
 
 def Expression():
     print("Note: Only Use Parentheses for Power Calculations.\n**For the best experience Please Do Not Use Parantheses for Other Calculations.**\n\n")
@@ -176,7 +197,7 @@ def Remainder():
     print("Remainder of " + str(divided) + " to " + str(divisor) + " is " + str(remainder) + ".")
 
 def Percentage():
-    number = int(input("Enter You're Desired Number: "))
+    number = float(input("Enter You're Desired Number: "))
 
     percentage = number * 0.1
     foramt_percentage = "{:.2f}".format(percentage)
@@ -308,694 +329,1196 @@ def Area_Conversion():
         print("Invalid Conversion!!")
 
     elif first_area_measurement == 1 and second_area_measurement == 2: #Mile to Acre
-        acre = int(input("Enter You're Desired Number: "))
-        mile_to_acre = 640 * acre
+        Mile = float(input("Enter You're Desired Number: "))
+        mile_to_acre = 640 * Mile
 
-        print("1 Square Mile is equal to " + str(mile_to_acre) + " Acre.")
+        print(str(Mile) + " Mile is equal to " + str(mile_to_acre) + " Acre.")
             
     elif first_area_measurement == 1 and second_area_measurement == 3: #Mile to Yard
-        yard = int(input("Enter You're Desired Number: "))
-        mile_to_yard = 3097600 * yard
+        Mile = float(input("Enter You're Desired Number: "))
+        mile_to_yard = 3097600 * Mile
 
-        print("1 Square Mile is equal to " + str(mile_to_yard) + " Yard.")
+        print(str(Mile) + " Mile is is equal to " + str(mile_to_yard) + " Yard.")
 
     elif first_area_measurement == 1 and second_area_measurement == 4: #Mile to Foot
-        foot = int(input("Enter You're Desired Number: "))
-        mile_to_foot = 27878400 * foot
+        Mile = float(input("Enter You're Desired Number: "))
+        mile_to_foot = 27878400 * Mile
 
-        print("1 Square Mile is equal to " + str(mile_to_foot) + " Foot.")
+        print(str(Mile) + " Mile is equal to " + str(mile_to_foot) + " Foot.")
             
     elif first_area_measurement == 1 and second_area_measurement == 5: #Mile to Inch
-        inch = int(input("Enter You're Desired Number: "))
-        mile_to_inch = 4014489599 * inch
+        Mile = float(input("Enter You're Desired Number: "))
+        mile_to_inch = 4014489599 * Mile
 
-        print("1 Square Mile is equal to " + str(mile_to_inch) + " Inch.")
+        print(str(Mile) + " Mile is equal to " + str(mile_to_inch) + " Inch.")
             
     elif first_area_measurement == 1 and second_area_measurement == 6: #Mile to Kilometer
-        kilometer = int(input("Enter You're Desired Number: "))
-        mile_to_kilometer = 2.589988 * kilometer
+        Mile = float(input("Enter You're Desired Number: "))
+        mile_to_kilometer = 2.589988 * Mile
 
-        print("1 Square Mile is equal to " + str(mile_to_kilometer) + " Kilometer.")   
+        print(str(Mile) + " Mile is equal to " + str(mile_to_kilometer) + " Kilometer.")   
 
     elif first_area_measurement == 1 and second_area_measurement == 7: #Mile to Meter
-        meter = int(input("Enter You're Desired Number: "))
-        mile_to_meter = 2589988 * meter
+        Mile = float(input("Enter You're Desired Number: "))
+        mile_to_meter = 2589988 * Mile
 
-        print("1 Square Mile is equal to " + str(mile_to_meter) + " Meter.")
+        print(str(Mile) + " Mile is equal to " + str(mile_to_meter) + " Meter.")
             
     elif first_area_measurement == 1 and second_area_measurement == 8: #Mile to Centimeter
-        centimeter = int(input("Enter You're Desired Number: "))
-        mile_to_centimeter = 25899881100 * centimeter
+        Mile = float(input("Enter You're Desired Number: "))
+        mile_to_centimeter = 25899881100 * Mile
 
-        print("1 Square Mile is equal to " + str(mile_to_centimeter) + " Centimeter.")
+        print(str(Mile) + " Mile is equal to " + str(mile_to_centimeter) + " Centimeter.")
 
     elif first_area_measurement == 1 and second_area_measurement == 9: #Mile to Milimeter
-        milimeter = int(input("Enter You're Desired Number: "))
-        mile_to_milimeter = 2589988110000 * milimeter
+        Mile = float(input("Enter You're Desired Number: "))
+        mile_to_milimeter = 2589988110000 * Mile
 
-        print("1 Square Mile is equal to " + str(mile_to_milimeter) + " Milimeter.")
+        print(str(Mile) + " Mile is equal to " + str(mile_to_milimeter) + " Milimeter.")
 
     elif first_area_measurement == 1 and second_area_measurement == 10: #Mile to Hectare
-        hectare = int(input("Enter You're Desired Number: "))
-        mile_to_hectare = 258.998811 * hectare
+        Mile = float(input("Enter You're Desired Number: "))
+        mile_to_hectare = 258.998811 * Mile
 
-        print("1 Square Mile is equal to " + str(mile_to_hectare) + " Hectare.")
+        print(str(Mile) + " Mile is equal to " + str(mile_to_hectare) + " Hectare.")
 
     elif first_area_measurement == 1 and second_area_measurement == 11: #Mile to Are
-        are = int(input("Enter You're Desired Number: "))
-        mile_to_are = 25900 * are
+        Mile = float(input("Enter You're Desired Number: "))
+        mile_to_are = 25900 * Mile
 
-        print("1 Square Mile is equal to " + str(mile_to_are) + " Are.")
+        print(str(Mile) + " Mile is equal to " + str(mile_to_are) + " Are.")
 
     elif first_area_measurement == 2 and second_area_measurement == 1: #Acre to Mile
-        mile = int(input("Enter You're Desired Number: "))
-        acre_to_mile = 0.001563 * mile
+        Acre = float(input("Enter You're Desired Number: "))
+        acre_to_mile = 0.001563 * Acre
 
-        print("1 Square Acre is equal to " + str(acre_to_mile) + " Mile.")
+        print(str(Acre) + " Acre is equal to " + str(acre_to_mile) + " Mile.")
 
     elif first_area_measurement == 2 and second_area_measurement == 2: #Acre to Acre
         print("Invalid Conversion!!")
 
     elif first_area_measurement == 2 and second_area_measurement == 3: #Acre to Yard
-        yard = int(input("Enter You're Desired Number: "))
-        acre_to_yard = 4840 * yard
+        Acre = float(input("Enter You're Desired Number: "))
+        acre_to_yard = 4840 * Acre
 
-        print("1 Square Acre is equal to " + str(acre_to_yard) + " Yard.")
+        print(str(Acre) + " Acre is equal to " + str(acre_to_yard) + " Yard.")
 
     elif first_area_measurement == 2 and second_area_measurement == 4: #Acre to Foot
-        foot = int(input("Enter You're Desired Number: "))
-        acre_to_foot = 43560 * foot
+        Acre = float(input("Enter You're Desired Number: "))
+        acre_to_foot = 43560 * Acre
 
-        print("1 Square Acre is equal to " + str(acre_to_foot) + " Foot.")
+        print(str(Acre) + " Acre is equal to " + str(acre_to_foot) + " Foot.")
 
     elif first_area_measurement == 2 and second_area_measurement == 5: #Acre to Inch
-        inch = int(input("Enter You're Desired Number: "))
-        acre_to_inch = 6272640 * inch
+        Acre = float(input("Enter You're Desired Number: "))
+        acre_to_inch = 6272640 * Acre
 
-        print("1 Square Acre is equal to " + str(acre_to_inch) + " Inch.")
+        print(str(Acre) + " Acre is equal to " + str(acre_to_inch) + " Inch.")
 
     elif first_area_measurement == 2 and second_area_measurement == 6: #Acre to Kilometer
-        kilometer = int(input("Enter You're Desired Number: "))
-        acre_to_kilometer = 0.004047 * kilometer
+        Acre = float(input("Enter You're Desired Number: "))
+        acre_to_kilometer = 0.004047 * Acre
 
-        print("1 Square Acre is equal to " + str(acre_to_kilometer) + " Kilometer.")
+        print(str(Acre) + " Acre is equal to " + str(acre_to_kilometer) + " Kilometer.")
 
     elif first_area_measurement == 2 and second_area_measurement == 7: #Acre to Meter
-        meter = int(input("Enter You're Desired Number: "))
-        acre_to_meter = 4047 * meter
+        Acre = float(input("Enter You're Desired Number: "))
+        acre_to_meter = 4047 * Acre
 
-        print("1 Square Acre is equal to " + str(acre_to_meter) + " Meter.")
+        print(str(Acre) + " Acre is equal to " + str(acre_to_meter) + " Meter.")
 
     elif first_area_measurement == 2 and second_area_measurement == 8: #Acre to Centimeter
-        centimeter = int(input("Enter You're Desired Number: "))
-        acre_to_centimeter = 40468564 * centimeter
+        Acre = float(input("Enter You're Desired Number: "))
+        acre_to_centimeter = 40468564 * Acre
 
-        print("1 Square Acre is equal to " + str(acre_to_centimeter) + " Centimeter.")
+        print(str(Acre) + " Acre is equal to " + str(acre_to_centimeter) + " Centimeter.")
 
     elif first_area_measurement == 2 and second_area_measurement == 9: #Acre to Milimeter
-        milimeter = int(input("Enter You're Desired Number: "))
-        acre_to_milimeter = 4046856422 * milimeter
+        Acre = float(input("Enter You're Desired Number: "))
+        acre_to_milimeter = 4046856422 * Acre
 
-        print("1 Square Acre is equal to " + str(acre_to_milimeter) + " Milimeter.")
+        print(str(Acre) + " Acre is equal to " + str(acre_to_milimeter) + " Milimeter.")
 
     elif first_area_measurement == 2 and second_area_measurement == 10: #Acre to Hectare
-        hectare = int(input("Enter You're Desired Number: "))
-        acre_to_hectare = 0.404686 * hectare
+        Acre = float(input("Enter You're Desired Number: "))
+        acre_to_hectare = 0.404686 * Acre
 
-        print("1 Square Acre is equal to " + str(acre_to_hectare) + " Hectare.")
+        print(str(Acre) + " Acre is equal to " + str(acre_to_hectare) + " Hectare.")
 
     elif first_area_measurement == 2 and second_area_measurement == 11: #Acre to Are
-        are = int(input("Enter You're Desired Number: "))
-        acre_to_are = 40.468564 * are
+        Acre = float(input("Enter You're Desired Number: "))
+        acre_to_are = 40.468564 * Acre
 
-        print("1 Square Acre is equal to " + str(acre_to_are) + " Are.")
+        print(str(Acre) + " Acre is equal to " + str(acre_to_are) + " Are.")
 
     elif first_area_measurement == 3 and second_area_measurement == 1: #Yard to Mile
-        mile = int(input("Enter You're Desired Number: "))
-        yard_to_mile = 0.00000032283 * mile
+        Yard = float(input("Enter You're Desired Number: "))
+        yard_to_mile = 0.00000032283 * Yard
 
-        print("1 Square Yard is equal to " + str(yard_to_mile) + " Mile.")
+        print(str(Yard) + " Yard is equal to " + str(yard_to_mile) + " Mile.")
 
     elif first_area_measurement == 3 and second_area_measurement == 2: #Yard to Acre
-        acre = int(input("Enter You're Desired Number: "))
-        yard_to_acre = 0.000207 * acre
+        Yard = float(input("Enter You're Desired Number: "))
+        yard_to_acre = 0.000207 * Yard
 
-        print("1 Square Yard is equal to " + str(yard_to_acre) + " Acre.")
+        print(str(Yard) + " Yard is equal to " + str(yard_to_acre) + " Acre.")
 
     elif first_area_measurement == 3 and second_area_measurement == 3: #Yard to Yard
         print("Invalid Conversion!!")
 
     elif first_area_measurement == 3 and second_area_measurement == 4: #Yard to Foot
-        Foot = int(input("Enter You're Desired Number: "))
-        yard_to_Foot = 9 * Foot
+        Yard = float(input("Enter You're Desired Number: "))
+        yard_to_Foot = 9 * Yard
 
-        print("1 Square Yard is equal to " + str(yard_to_Foot) + " Foot.")
+        print(str(Yard) + " Yard is equal to " + str(yard_to_Foot) + " Foot.")
 
     elif first_area_measurement == 3 and second_area_measurement == 5: #Yard to Inch
-        Inch = int(input("Enter You're Desired Number: "))
-        yard_to_Inch = 1296 * Inch
+        Yard = float(input("Enter You're Desired Number: "))
+        yard_to_Inch = 1296 * Yard
 
-        print("1 Square Yard is equal to " + str(yard_to_Inch) + " Inch.")
+        print(str(Yard) + " Yard is equal to " + str(yard_to_Inch) + " Inch.")
 
     elif first_area_measurement == 3 and second_area_measurement == 6: #Yard to Kilometer
-        Kilometer = int(input("Enter You're Desired Number: "))
-        yard_to_Kilometer = 0.00000083613 * Kilometer
+        Yard = float(input("Enter You're Desired Number: "))
+        yard_to_Kilometer = 0.00000083613 * Yard
 
-        print("1 Square Yard is equal to " + str(yard_to_Kilometer) + " Kilometer.")
+        print(str(Yard) + " Yard is equal to " + str(yard_to_Kilometer) + " Kilometer.")
 
     elif first_area_measurement == 3 and second_area_measurement == 7: #Yard to Meter
-        Meter = int(input("Enter You're Desired Number: "))
-        yard_to_Meter = 0.836127 * Meter
+        Yard = float(input("Enter You're Desired Number: "))
+        yard_to_Meter = 0.836127 * Yard
 
-        print("1 Square Yard is equal to " + str(yard_to_Meter) + " Meter.")
+        print(str(Yard) + " Yard is equal to " + str(yard_to_Meter) + " Meter.")
 
     elif first_area_measurement == 3 and second_area_measurement == 8: #Yard to Centimeter
-        Centimeter = int(input("Enter You're Desired Number: "))
-        yard_to_Centimeter = 8361 * Centimeter
+        Yard = float(input("Enter You're Desired Number: "))
+        yard_to_Centimeter = 8361 * Yard
 
-        print("1 Square Yard is equal to " + str(yard_to_Centimeter) + " Centimeter.")
+        print(str(Yard) + " Yard is equal to " + str(yard_to_Centimeter) + " Centimeter.")
 
     elif first_area_measurement == 3 and second_area_measurement == 9: #Yard to Milimeter
-        Milimeter = int(input("Enter You're Desired Number: "))
-        yard_to_Milimeter = 836127 * Milimeter
+        Yard = float(input("Enter You're Desired Number: "))
+        yard_to_Milimeter = 836127 * Yard
 
-        print("1 Square Yard is equal to " + str(yard_to_Milimeter) + " Milimeter.")
+        print(str(Yard) + " Yard is equal to " + str(yard_to_Milimeter) + " Milimeter.")
 
     elif first_area_measurement == 3 and second_area_measurement == 10: #Yard to Hectare
-        Hectare = int(input("Enter You're Desired Number: "))
-        yard_to_Hectare = 0.000083613 * Hectare
+        Yard = float(input("Enter You're Desired Number: "))
+        yard_to_Hectare = 0.000083613 * Yard
 
-        print("1 Square Yard is equal to " + str(yard_to_Hectare) + " Hectare.")
+        print(str(Yard) + " Yard is equal to " + str(yard_to_Hectare) + " Hectare.")
 
     elif first_area_measurement == 3 and second_area_measurement == 11: #Yard to Are
-        Are = int(input("Enter You're Desired Number: "))
-        yard_to_Are = 0.008361 * Are
+        Yard = float(input("Enter You're Desired Number: "))
+        yard_to_Are = 0.008361 * Yard
 
-        print("1 Square Yard is equal to " + str(yard_to_Are) + " Are.")
+        print(str(Yard) + " Yard is equal to " + str(yard_to_Are) + " Are.")
 
     elif first_area_measurement == 4 and second_area_measurement == 1: #Foot to Mile
-        Mile = int(input("Enter You're Desired Number: "))
-        Foot_to_Mile = 0.00000003587 * Mile
+        Foot = float(input("Enter You're Desired Number: "))
+        Foot_to_Mile = 0.00000003587 * Foot
 
-        print("1 Square Foot is equal to " + str(Foot_to_Mile) + " Mile.")
+        print(str(Foot) + " Foot is equal to " + str(Foot_to_Mile) + " Mile.")
 
     elif first_area_measurement == 4 and second_area_measurement == 2: #Foot to Acre
-        Acre = int(input("Enter You're Desired Number: "))
-        Foot_to_Acre = 0.000022957 * Acre
+        Foot = float(input("Enter You're Desired Number: "))
+        Foot_to_Acre = 0.000022957 * Foot
 
-        print("1 Square Foot is equal to " + str(Foot_to_Acre) + " Acre.")
+        print(str(Foot) + " Foot is equal to " + str(Foot_to_Acre) + " Acre.")
 
     elif first_area_measurement == 4 and second_area_measurement == 3: #Foot to Yard
-        Yard = int(input("Enter You're Desired Number: "))
-        Foot_to_Yard = 0.111111 * Yard
+        Foot = float(input("Enter You're Desired Number: "))
+        Foot_to_Yard = 0.111111 * Foot
 
-        print("1 Square Foot is equal to " + str(Foot_to_Yard) + " Yard.")
+        print(str(Foot) + " Foot is equal to " + str(Foot_to_Yard) + " Yard.")
 
     elif first_area_measurement == 4 and second_area_measurement == 4: #Foot to Foot
         print("Invalid Conversion!!")
 
     elif first_area_measurement == 4 and second_area_measurement == 5: #Foot to Inch
-        Inch = int(input("Enter You're Desired Number: "))
-        Foot_to_Inch = 144 * Inch
+        Foot = float(input("Enter You're Desired Number: "))
+        Foot_to_Inch = 144 * Foot
 
-        print("1 Square Foot is equal to " + str(Foot_to_Inch) + " Inch.")
+        print(str(Foot) + " Foot is equal to " + str(Foot_to_Inch) + " Inch.")
 
     elif first_area_measurement == 4 and second_area_measurement == 6: #Foot to Kilometer
-        Kilometer = int(input("Enter You're Desired Number: "))
-        Foot_to_Kilometer = 0.000000092903 * Kilometer
+        Foot = float(input("Enter You're Desired Number: "))
+        Foot_to_Kilometer = 0.000000092903 * Foot
 
-        print("1 Square Foot is equal to " + str(Foot_to_Kilometer) + " Kilometer.")
+        print(str(Foot) + " Foot is equal to " + str(Foot_to_Kilometer) + " Kilometer.")
 
     elif first_area_measurement == 4 and second_area_measurement == 7: #Foot to Meter
-        Meter = int(input("Enter You're Desired Number: "))
-        Foot_to_Meter = 0.092903 * Meter
+        Foot = float(input("Enter You're Desired Number: "))
+        Foot_to_Meter = 0.092903 * Foot
 
-        print("1 Square Foot is equal to " + str(Foot_to_Meter) + " Meter.")
+        print(str(Foot) + " Foot is equal to " + str(Foot_to_Meter) + " Meter.")
 
     elif first_area_measurement == 4 and second_area_measurement == 8: #Foot to Centimeter
-        Centimeter = int(input("Enter You're Desired Number: "))
-        Foot_to_Centimeter = 929.0304 * Centimeter
+        Foot = float(input("Enter You're Desired Number: "))
+        Foot_to_Centimeter = 929.0304 * Foot
 
-        print("1 Square Foot is equal to " + str(Foot_to_Centimeter) + " Centimeter.")
+        print(str(Foot) + " Foot is equal to " + str(Foot_to_Centimeter) + " Centimeter.")
 
     elif first_area_measurement == 4 and second_area_measurement == 9: #Foot to Milimeter
-        Milimeter = int(input("Enter You're Desired Number: "))
-        Foot_to_Milimeter = 92903 * Milimeter
+        Foot = float(input("Enter You're Desired Number: "))
+        Foot_to_Milimeter = 92903 * Foot
 
-        print("1 Square Foot is equal to " + str(Foot_to_Milimeter) + " Milimeter.")
+        print(str(Foot) + " Foot is equal to " + str(Foot_to_Milimeter) + " Milimeter.")
 
     elif first_area_measurement == 4 and second_area_measurement == 10: #Foot to Hectare
-        Hectare = int(input("Enter You're Desired Number: "))
-        Foot_to_Hectare = 0.0000092903 * Hectare
+        Foot = float(input("Enter You're Desired Number: "))
+        Foot_to_Hectare = 0.0000092903 * Foot
 
-        print("1 Square Foot is equal to " + str(Foot_to_Hectare) + " Hectare.")
+        print(str(Foot) + " Foot is equal to " + str(Foot_to_Hectare) + " Hectare.")
 
     elif first_area_measurement == 4 and second_area_measurement == 11: #Foot to Are
-        Are = int(input("Enter You're Desired Number: "))
-        Foot_to_Are = 0.000929 * Are
+        Foot = float(input("Enter You're Desired Number: "))
+        Foot_to_Are = 0.000929 * Foot
 
-        print("1 Square Foot is equal to " + str(Foot_to_Are) + " Are.")
+        print(str(Foot) + " Foot is equal to " + str(Foot_to_Are) + " Are.")
 
     elif first_area_measurement == 5 and second_area_measurement == 1: #Inch to Mile
-        Mile = int(input("Enter You're Desired Number: "))
-        Inch_to_Mile = 0.0000000002491 * Mile
+        Inch = float(input("Enter You're Desired Number: "))
+        Inch_to_Mile = 0.0000000002491 * Inch
 
-        print("1 Square Inch is equal to " + str(Inch_to_Mile) + " Mile.")
+        print(str(Inch) + " Inch is equal to " + str(Inch_to_Mile) + " Mile.")
 
     elif first_area_measurement == 5 and second_area_measurement == 2: #Inch to Acre
-        Acre = int(input("Enter You're Desired Number: "))
-        Inch_to_Acre = 0.00000015942 * Acre
+        Inch = float(input("Enter You're Desired Number: "))
+        Inch_to_Acre = 0.00000015942 * Inch
 
-        print("1 Square Inch is equal to " + str(Inch_to_Acre) + " Acre.")
+        print(str(Inch) + " Inch is equal to " + str(Inch_to_Acre) + " Acre.")
 
     elif first_area_measurement == 5 and second_area_measurement == 3: #Inch to Yard
-        Yard = int(input("Enter You're Desired Number: "))
-        Inch_to_Yard = 0.000772 * Yard
+        Inch = float(input("Enter You're Desired Number: "))
+        Inch_to_Yard = 0.000772 * Inch
 
-        print("1 Square Inch is equal to " + str(Inch_to_Yard) + " Yard.")
+        print(str(Inch) + " Inch is equal to " + str(Inch_to_Yard) + " Yard.")
 
     elif first_area_measurement == 5 and second_area_measurement == 4: #Inch to Foot
-        Foot = int(input("Enter You're Desired Number: "))
-        Inch_to_Foot = 0.006944 * Foot
+        Inch = float(input("Enter You're Desired Number: "))
+        Inch_to_Foot = 0.006944 * Inch
 
-        print("1 Square Inch is equal to " + str(Inch_to_Foot) + " Foot.")
+        print(str(Inch) + " Inch is equal to " + str(Inch_to_Foot) + " Foot.")
 
     elif first_area_measurement == 5 and second_area_measurement == 5: #Inch to Inch
         print("Invalid Conversion!!")
 
     elif first_area_measurement == 5 and second_area_measurement == 6: #Inch to Kilometer
-        Kilometer = int(input("Enter You're Desired Number: "))
-        Inch_to_Kilometer = 0.00000000064516 * Kilometer
+        Inch = float(input("Enter You're Desired Number: "))
+        Inch_to_Kilometer = 0.00000000064516 * Inch
 
-        print("1 Square Inch is equal to " + str(Inch_to_Kilometer) + " Kilometer.")
+        print(str(Inch) + " Inch is equal to " + str(Inch_to_Kilometer) + " Kilometer.")
 
     elif first_area_measurement == 5 and second_area_measurement == 7: #Inch to Meter
-        Meter = int(input("Enter You're Desired Number: "))
-        Inch_to_Meter = 0.000645 * Meter
+        Inch = float(input("Enter You're Desired Number: "))
+        Inch_to_Meter = 0.000645 * Inch
 
-        print("1 Square Inch is equal to " + str(Inch_to_Meter) + " Meter.")
+        print(str(Inch) + " Inch is equal to " + str(Inch_to_Meter) + " Meter.")
 
     elif first_area_measurement == 5 and second_area_measurement == 8: #Inch to Centimeter
-        Centimeter = int(input("Enter You're Desired Number: "))
-        Inch_to_Centimeter = 6.4516 * Centimeter
+        Inch = float(input("Enter You're Desired Number: "))
+        Inch_to_Centimeter = 6.4516 * Inch
 
-        print("1 Square Inch is equal to " + str(Inch_to_Centimeter) + " Centimeter.")
+        print(str(Inch) + " Inch is equal to " + str(Inch_to_Centimeter) + " Centimeter.")
 
     elif first_area_measurement == 5 and second_area_measurement == 9: #Inch to Milimeter
-        Milimeter = int(input("Enter You're Desired Number: "))
-        Inch_to_Milimeter = 645.16 * Milimeter
+        Inch = float(input("Enter You're Desired Number: "))
+        Inch_to_Milimeter = 645.16 * Inch
 
-        print("1 Square Inch is equal to " + str(Inch_to_Milimeter) + " Milimeter.")
+        print(str(Inch) + " Inch is equal to " + str(Inch_to_Milimeter) + " Milimeter.")
 
     elif first_area_measurement == 5 and second_area_measurement == 10: #Inch to Hectare
-        Hectare = int(input("Enter You're Desired Number: "))
-        Inch_to_Hectare = 0.000000064516 * Hectare
+        Inch = float(input("Enter You're Desired Number: "))
+        Inch_to_Hectare = 0.000000064516 * Inch
 
-        print("1 Square Inch is equal to " + str(Inch_to_Hectare) + " Hectare.")
+        print(str(Inch) + " Inch is equal to " + str(Inch_to_Hectare) + " Hectare.")
 
     elif first_area_measurement == 5 and second_area_measurement == 11: #Inch to Are
-        Are = int(input("Enter You're Desired Number: "))
-        Inch_to_Are = 0.0000064516 * Are
+        Inch = float(input("Enter You're Desired Number: "))
+        Inch_to_Are = 0.0000064516 * Inch
 
-        print("1 Square Inch is equal to " + str(Inch_to_Are) + " Are.")
+        print(str(Inch) + " Inch is equal to " + str(Inch_to_Are) + " Are.")
 
     elif first_area_measurement == 6 and second_area_measurement == 1: #Kilometer to Mile
-        Mile = int(input("Enter You're Desired Number: "))
-        Kilometer_to_Mile = 0.386102 * Mile
+        Kilometer = float(input("Enter You're Desired Number: "))
+        Kilometer_to_Mile = 0.386102 * Kilometer
 
-        print("1 Square Kilometer is equal to " + str(Kilometer_to_Mile) + " Mile.")
+        print(str(Kilometer) + " Kilometer is equal to " + str(Kilometer_to_Mile) + " Mile.")
 
     elif first_area_measurement == 6 and second_area_measurement == 2: #Kilometer to Acre
-        Acre = int(input("Enter You're Desired Number: "))
-        Kilometer_to_Acre = 247.105381 * Acre
+        Kilometer = float(input("Enter You're Desired Number: "))
+        Kilometer_to_Acre = 247.105381 * Kilometer
 
-        print("1 Square Kilometer is equal to " + str(Kilometer_to_Acre) + " Acre.")
+        print(str(Kilometer) + " Kilometer is equal to " + str(Kilometer_to_Acre) + " Acre.")
 
     elif first_area_measurement == 6 and second_area_measurement == 3: #Kilometer to Yard
-        Yard = int(input("Enter You're Desired Number: "))
-        Kilometer_to_Yard = 1195990 * Yard
+        Kilometer = float(input("Enter You're Desired Number: "))
+        Kilometer_to_Yard = 1195990 * Kilometer
 
-        print("1 Square Kilometer is equal to " + str(Kilometer_to_Yard) + " Yard.")
+        print(str(Kilometer) + " Kilometer is equal to " + str(Kilometer_to_Yard) + " Yard.")
 
     elif first_area_measurement == 6 and second_area_measurement == 4: #Kilometer to Foot
-        Foot = int(input("Enter You're Desired Number: "))
-        Kilometer_to_Foot = 10763910 * Foot
+        Kilometer = float(input("Enter You're Desired Number: "))
+        Kilometer_to_Foot = 10763910 * Kilometer
 
-        print("1 Square Kilometer is equal to " + str(Kilometer_to_Foot) + " Foot.")
+        print(str(Kilometer) + " Kilometer is equal to " + str(Kilometer_to_Foot) + " Foot.")
 
     elif first_area_measurement == 6 and second_area_measurement == 5: #Kilometer to Inch
-        Inch = int(input("Enter You're Desired Number: "))
-        Kilometer_to_Inch = 1550003 * Inch
+        Kilometer = float(input("Enter You're Desired Number: "))
+        Kilometer_to_Inch = 1550003 * Kilometer
 
-        print("1 Square Kilometer is equal to " + str(Kilometer_to_Inch) + " Inch.")
+        print(str(Kilometer) + " Kilometer is equal to " + str(Kilometer_to_Inch) + " Inch.")
 
     elif first_area_measurement == 6 and second_area_measurement == 6: #Kilometer to Kilometer
         print("Invalid Conversion!!")
 
     elif first_area_measurement == 6 and second_area_measurement == 7: #Kilometer to Meter
-        Meter = int(input("Enter You're Desired Number: "))
-        Kilometer_to_Meter = 1000000 * Meter
+        Kilometer = float(input("Enter You're Desired Number: "))
+        Kilometer_to_Meter = 1000000 * Kilometer
 
-        print("1 Square Kilometer is equal to " + str(Kilometer_to_Meter) + " Meter.")
+        print(str(Kilometer) + " Kilometer is equal to " + str(Kilometer_to_Meter) + " Meter.")
 
     elif first_area_measurement == 6 and second_area_measurement == 8: #Kilometer to Centimeter
-        Centimeter = int(input("Enter You're Desired Number: "))
-        Kilometer_to_Centimeter = 10000000000 * Centimeter
+        Kilometer = float(input("Enter You're Desired Number: "))
+        Kilometer_to_Centimeter = 10000000000 * Kilometer
 
-        print("1 Square Kilometer is equal to " + str(Kilometer_to_Centimeter) + " Centimeter.")
+        print(str(Kilometer) + " Kilometer is equal to " + str(Kilometer_to_Centimeter) + " Centimeter.")
 
     elif first_area_measurement == 6 and second_area_measurement == 9: #Kilometer to Milimeter
-        Milimeter = int(input("Enter You're Desired Number: "))
-        Kilometer_to_Milimeter = 1000000000000 * Milimeter
+        Kilometer = float(input("Enter You're Desired Number: "))
+        Kilometer_to_Milimeter = 1000000000000 * Kilometer
 
-        print("1 Square Kilometer is equal to " + str(Kilometer_to_Milimeter) + " Milimeter.")
+        print(str(Kilometer) + " Kilometer is equal to " + str(Kilometer_to_Milimeter) + " Milimeter.")
 
     elif first_area_measurement == 6 and second_area_measurement == 10: #Kilometer to Hectare
-        Hectare = int(input("Enter You're Desired Number: "))
-        Kilometer_to_Hectare = 100 * Hectare
+        Kilometer = float(input("Enter You're Desired Number: "))
+        Kilometer_to_Hectare = 100 * Kilometer
 
-        print("1 Square Kilometer is equal to " + str(Kilometer_to_Hectare) + " Hectare.")
+        print(str(Kilometer) + " Kilometer is equal to " + str(Kilometer_to_Hectare) + " Hectare.")
 
     elif first_area_measurement == 6 and second_area_measurement == 11: #Kilometer to Are
-        Are = int(input("Enter You're Desired Number: "))
-        Kilometer_to_Are = 10000 * Are
+        Kilometer = float(input("Enter You're Desired Number: "))
+        Kilometer_to_Are = 10000 * Kilometer
 
-        print("1 Square Kilometer is equal to " + str(Kilometer_to_Are) + " Are.")
+        print(str(Kilometer) + " Kilometer is equal to " + str(Kilometer_to_Are) + " Are.")
 
     elif first_area_measurement == 7 and second_area_measurement == 1: #Meter to Mile
-        Mile = int(input("Enter You're Desired Number: "))
-        Meter_to_Mile = 0.0000003861 * Mile
+        Meter = float(input("Enter You're Desired Number: "))
+        Meter_to_Mile = 0.0000003861 * Meter
 
-        print("1 Square Meter is equal to " + str(Meter_to_Mile) + " Mile.")
+        print(str(Meter) + " Meter is equal to " + str(Meter_to_Mile) + " Mile.")
 
     elif first_area_measurement == 7 and second_area_measurement == 2: #Meter to Acre
-        Acre = int(input("Enter You're Desired Number: "))
-        Meter_to_Acre = 0.000247 * Acre
+        Meter = float(input("Enter You're Desired Number: "))
+        Meter_to_Acre = 0.000247 * Meter
 
-        print("1 Square Meter is equal to " + str(Meter_to_Acre) + " Acre.")
+        print(str(Meter) + " Meter is equal to " + str(Meter_to_Acre) + " Acre.")
 
     elif first_area_measurement == 7 and second_area_measurement == 3: #Meter to Yard
-        Yard = int(input("Enter You're Desired Number: "))
-        Meter_to_Yard = 1.19599 * Yard
+        Meter = float(input("Enter You're Desired Number: "))
+        Meter_to_Yard = 1.19599 * Meter
 
-        print("1 Square Meter is equal to " + str(Meter_to_Yard) + " Yard.")
+        print(str(Meter) + " Meter is equal to " + str(Meter_to_Yard) + " Yard.")
 
     elif first_area_measurement == 7 and second_area_measurement == 4: #Meter to Foot
-        Foot = int(input("Enter You're Desired Number: "))
-        Meter_to_Foot = 10.74391 * Foot
+        Meter = float(input("Enter You're Desired Number: "))
+        Meter_to_Foot = 10.74391 * Meter
 
-        print("1 Square Meter is equal to " + str(Meter_to_Foot) + " Foot.")
+        print(str(Meter) + " Meter is equal to " + str(Meter_to_Foot) + " Foot.")
 
     elif first_area_measurement == 7 and second_area_measurement == 5: #Meter to Inch
-        Inch = int(input("Enter You're Desired Number: "))
-        Meter_to_Inch = 1550 * Inch
+        Meter = float(input("Enter You're Desired Number: "))
+        Meter_to_Inch = 1550 * Meter
 
-        print("1 Square Meter is equal to " + str(Meter_to_Inch) + " Inch.")
+        print(str(Meter) + " Meter is equal to " + str(Meter_to_Inch) + " Inch.")
 
     elif first_area_measurement == 7 and second_area_measurement == 6: #Meter to Kilometer
-        Kilometer = int(input("Enter You're Desired Number: "))
-        Meter_to_Kilometer = 0.000001 * Kilometer
+        Meter = float(input("Enter You're Desired Number: "))
+        Meter_to_Kilometer = 0.000001 * Meter
 
-        print("1 Square Meter is equal to " + str(Meter_to_Kilometer) + " Kilometer.")
+        print(str(Meter) + " Meter is equal to " + str(Meter_to_Kilometer) + " Kilometer.")
 
     elif first_area_measurement == 7 and second_area_measurement == 7: #Meter to Meter
         print("Invalid Conversion!!")
 
     elif first_area_measurement == 7 and second_area_measurement == 8: #Meter to Centimeter
-        Centimeter = int(input("Enter You're Desired Number: "))
-        Meter_to_Centimeter = 10000 * Centimeter
+        Meter = float(input("Enter You're Desired Number: "))
+        Meter_to_Centimeter = 10000 * Meter
 
-        print("1 Square Meter is equal to " + str(Meter_to_Centimeter) + " Centimeter.")
+        print(str(Meter) + " Meter is equal to " + str(Meter_to_Centimeter) + " Centimeter.")
 
     elif first_area_measurement == 7 and second_area_measurement == 9: #Meter to Milimeter
-        Milimeter = int(input("Enter You're Desired Number: "))
-        Meter_to_Milimeter = 1000000 * Milimeter
+        Meter = float(input("Enter You're Desired Number: "))
+        Meter_to_Milimeter = 1000000 * Meter
 
-        print("1 Square Meter is equal to " + str(Meter_to_Milimeter) + " Milimeter.")
+        print(str(Meter) + " Meter is equal to " + str(Meter_to_Milimeter) + " Milimeter.")
 
     elif first_area_measurement == 7 and second_area_measurement == 10: #Meter to Hectare
-        Hectare = int(input("Enter You're Desired Number: "))
-        Meter_to_Hectare = 0.0001 * Hectare
+        Meter = float(input("Enter You're Desired Number: "))
+        Meter_to_Hectare = 0.0001 * Meter
 
-        print("1 Square Meter is equal to " + str(Meter_to_Hectare) + " Hectare.")
+        print(str(Meter) + " Meter is equal to " + str(Meter_to_Hectare) + " Hectare.")
 
     elif first_area_measurement == 7 and second_area_measurement == 11: #Meter to Are
-        Are = int(input("Enter You're Desired Number: "))
-        Meter_to_Are = 0.01 * Are
+        Meter = float(input("Enter You're Desired Number: "))
+        Meter_to_Are = 0.01 * Meter
 
-        print("1 Square Meter is equal to " + str(Meter_to_Are) + " Are.")
+        print(str(Meter) + " Meter is equal to " + str(Meter_to_Are) + " Are.")
 
     elif first_area_measurement == 8 and second_area_measurement == 1: #Centimeter to Mile
-        Mile = int(input("Enter You're Desired Number: "))
-        Centimeter_to_Mile = 0.00000000003861 * Mile
+        Centimeter = float(input("Enter You're Desired Number: "))
+        Centimeter_to_Mile = 0.00000000003861 * Centimeter
 
-        print("1 Square Centimeter is equal to " + str(Centimeter_to_Mile) + " Mile.")
+        print(str(Centimeter) + " Centimeter is equal to " + str(Centimeter_to_Mile) + " Mile.")
 
     elif first_area_measurement == 8 and second_area_measurement == 2: #Centimeter to Acre
-        Acre = int(input("Enter You're Desired Number: "))
-        Centimeter_to_Acre = 0.000000024711 * Acre
+        Centimeter = float(input("Enter You're Desired Number: "))
+        Centimeter_to_Acre = 0.000000024711 * Centimeter
 
-        print("1 Square Centimeter is equal to " + str(Centimeter_to_Acre) + " Acre.")
+        print(str(Centimeter) + " Centimeter is equal to " + str(Centimeter_to_Acre) + " Acre.")
 
     elif first_area_measurement == 8 and second_area_measurement == 3: #Centimeter to Yard
-        Yard = int(input("Enter You're Desired Number: "))
-        Centimeter_to_Yard = 0.00012 * Yard
+        Centimeter = float(input("Enter You're Desired Number: "))
+        Centimeter_to_Yard = 0.00012 * Centimeter
 
-        print("1 Square Centimeter is equal to " + str(Centimeter_to_Yard) + " Yard.")
+        print(str(Centimeter) + " Centimeter is equal to " + str(Centimeter_to_Yard) + " Yard.")
 
     elif first_area_measurement == 8 and second_area_measurement == 4: #Centimeter to Foot
-        Foot = int(input("Enter You're Desired Number: "))
-        Centimeter_to_Foot = 0.001076 * Foot
+        Centimeter = float(input("Enter You're Desired Number: "))
+        Centimeter_to_Foot = 0.001076 * Centimeter
 
-        print("1 Square Centimeter is equal to " + str(Centimeter_to_Foot) + " Foot.")
+        print(str(Centimeter) + " Centimeter is equal to " + str(Centimeter_to_Foot) + " Foot.")
 
     elif first_area_measurement == 8 and second_area_measurement == 5: #Centimeter to Inch
-        Inch = int(input("Enter You're Desired Number: "))
-        Centimeter_to_Inch = 0.155 * Inch
+        Centimeter = float(input("Enter You're Desired Number: "))
+        Centimeter_to_Inch = 0.155 * Centimeter
 
-        print("1 Square Centimeter is equal to " + str(Centimeter_to_Inch) + " Inch.")
+        print(str(Centimeter) + " Centimeter is equal to " + str(Centimeter_to_Inch) + " Inch.")
 
     elif first_area_measurement == 8 and second_area_measurement == 6: #Centimeter to Kilometer
-        Kilometer = int(input("Enter You're Desired Number: "))
-        Centimeter_to_Kilometer = 0.0000000001 * Kilometer
+        Centimeter = float(input("Enter You're Desired Number: "))
+        Centimeter_to_Kilometer = 0.0000000001 * Centimeter
 
-        print("1 Square Centimeter is equal to " + str(Centimeter_to_Kilometer) + " Kilometer.")
+        print(str(Centimeter) + " Centimeter is equal to " + str(Centimeter_to_Kilometer) + " Kilometer.")
 
     elif first_area_measurement == 8 and second_area_measurement == 7: #Centimeter to Meter
-        Meter = int(input("Enter You're Desired Number: "))
-        Centimeter_to_Meter = 0.0001 * Meter
+        Centimeter = float(input("Enter You're Desired Number: "))
+        Centimeter_to_Meter = 0.0001 * Centimeter
 
-        print("1 Square Centimeter is equal to " + str(Centimeter_to_Meter) + " Meter.")
+        print(str(Centimeter) + " Centimeter is equal to " + str(Centimeter_to_Meter) + " Meter.")
 
     elif first_area_measurement == 8 and second_area_measurement == 8: #Centimeter to Centimeter
         print("Invalid Conversion!!")
 
     elif first_area_measurement == 8 and second_area_measurement == 9: #Centimeter to Milimeter
-        Milimeter = int(input("Enter You're Desired Number: "))
-        Centimeter_to_Milimeter = 100 * Milimeter
+        Centimeter = float(input("Enter You're Desired Number: "))
+        Centimeter_to_Milimeter = 100 * Centimeter
 
-        print("1 Square Centimeter is equal to " + str(Centimeter_to_Milimeter) + " Milimeter.")
+        print(str(Centimeter) + " Centimeter is equal to " + str(Centimeter_to_Milimeter) + " Milimeter.")
 
     elif first_area_measurement == 8 and second_area_measurement == 10: #Centimeter to Hectare
-        Hectare = int(input("Enter You're Desired Number: "))
-        Centimeter_to_Hectare = 0.00000001 * Hectare
+        Centimeter = float(input("Enter You're Desired Number: "))
+        Centimeter_to_Hectare = 0.00000001 * Centimeter
 
-        print("1 Square Centimeter is equal to " + str(Centimeter_to_Hectare) + " Hectare.")
+        print(str(Centimeter) + " Centimeter is equal to " + str(Centimeter_to_Hectare) + " Hectare.")
 
     elif first_area_measurement == 8 and second_area_measurement == 11: #Centimeter to Are
-        Are = int(input("Enter You're Desired Number: "))
-        Centimeter_to_Are = 0.000001 * Are
+        Centimeter = float(input("Enter You're Desired Number: "))
+        Centimeter_to_Are = 0.000001 * Centimeter
 
-        print("1 Square Centimeter is equal to " + str(Centimeter_to_Are) + " Are.")
+        print(str(Centimeter) + " Centimeter is equal to " + str(Centimeter_to_Are) + " Are.")
 
     elif first_area_measurement == 9 and second_area_measurement == 1: #Milimeter to Mile
-        Mile = int(input("Enter You're Desired Number: "))
-        Milimeter_to_Mile = 0.0000000000003861 * Mile
+        Milimeter = float(input("Enter You're Desired Number: "))
+        Milimeter_to_Mile = 0.0000000000003861 * Milimeter
 
-        print("1 Square Milimeter is equal to " + str(Milimeter_to_Mile) + " Mile.")
+        print(str(Milimeter) + " Milimeter is equal to " + str(Milimeter_to_Mile) + " Mile.")
 
     elif first_area_measurement == 9 and second_area_measurement == 2: #Milimeter to Acre
-        Acre = int(input("Enter You're Desired Number: "))
-        Milimeter_to_Acre = 0.00000000024711 * Acre
+        Milimeter = float(input("Enter You're Desired Number: "))
+        Milimeter_to_Acre = 0.00000000024711 * Milimeter
 
-        print("1 Square Milimeter is equal to " + str(Milimeter_to_Acre) + " Acre.")
+        print(str(Milimeter) + " Milimeter is equal to " + str(Milimeter_to_Acre) + " Acre.")
 
     elif first_area_measurement == 9 and second_area_measurement == 3: #Milimeter to Yard
-        Yard = int(input("Enter You're Desired Number: "))
-        Milimeter_to_Yard = 0.000001196 * Yard
+        Milimeter = float(input("Enter You're Desired Number: "))
+        Milimeter_to_Yard = 0.000001196 * Milimeter
 
-        print("1 Square Milimeter is equal to " + str(Milimeter_to_Yard) + " Yard.")
+        print(str(Milimeter) + " Milimeter is equal to " + str(Milimeter_to_Yard) + " Yard.")
 
     elif first_area_measurement == 9 and second_area_measurement == 4: #Milimeter to Foot
-        Foot = int(input("Enter You're Desired Number: "))
-        Milimeter_to_Foot = 0.000010764 * Foot
+        Milimeter = float(input("Enter You're Desired Number: "))
+        Milimeter_to_Foot = 0.000010764 * Milimeter
 
-        print("1 Square Milimeter is equal to " + str(Milimeter_to_Foot) + " Foot.")
+        print(str(Milimeter) + " Milimeter is equal to " + str(Milimeter_to_Foot) + " Foot.")
 
     elif first_area_measurement == 9 and second_area_measurement == 5: #Milimeter to Inch
-        Inch = int(input("Enter You're Desired Number: "))
-        Milimeter_to_Inch = 0.00155 * Inch
+        Milimeter = float(input("Enter You're Desired Number: "))
+        Milimeter_to_Inch = 0.00155 * Milimeter
 
-        print("1 Square Milimeter is equal to " + str(Milimeter_to_Inch) + " Inch.")
+        print(str(Milimeter) + " Milimeter is equal to " + str(Milimeter_to_Inch) + " Inch.")
 
     elif first_area_measurement == 9 and second_area_measurement == 6: #Milimeter to Kilometer
-        Kilometer = int(input("Enter You're Desired Number: "))
-        Milimeter_to_Kilometer = 0.000000000001 * Kilometer
+        Milimeter = float(input("Enter You're Desired Number: "))
+        Milimeter_to_Kilometer = 0.000000000001 * Milimeter
 
-        print("1 Square Milimeter is equal to " + str(Milimeter_to_Kilometer) + " Kilometer.")
+        print(str(Milimeter) + " Milimeter is equal to " + str(Milimeter_to_Kilometer) + " Kilometer.")
 
     elif first_area_measurement == 9 and second_area_measurement == 7: #Milimeter to Meter
-        Meter = int(input("Enter You're Desired Number: "))
-        Milimeter_to_Meter = 0.000001 * Meter
+        Milimeter = float(input("Enter You're Desired Number: "))
+        Milimeter_to_Meter = 0.000001 * Milimeter
 
-        print("1 Square Milimeter is equal to " + str(Milimeter_to_Meter) + " Meter.")
+        print(str(Milimeter) + " Milimeter is equal to " + str(Milimeter_to_Meter) + " Meter.")
 
     elif first_area_measurement == 9 and second_area_measurement == 8: #Milimeter to Centimeter
-        Centimeter = int(input("Enter You're Desired Number: "))
-        Milimeter_to_Centimeter = 0.01 * Centimeter
+        Milimeter = float(input("Enter You're Desired Number: "))
+        Milimeter_to_Centimeter = 0.01 * Milimeter
 
-        print("1 Square Milimeter is equal to " + str(Milimeter_to_Centimeter) + " Centimeter.")
+        print(str(Milimeter) + " Milimeter is equal to " + str(Milimeter_to_Centimeter) + " Centimeter.")
 
     elif first_area_measurement == 9 and second_area_measurement == 9: #Milimeter to Milimeter
         print("Invalid Conversion!!")
 
     elif first_area_measurement == 9 and second_area_measurement == 10: #Milimeter to Hectare
-        Hectare = int(input("Enter You're Desired Number: "))
-        Milimeter_to_Hectare = 0.0000000001 * Hectare
+        Milimeter = float(input("Enter You're Desired Number: "))
+        Milimeter_to_Hectare = 0.0000000001 * Milimeter
 
-        print("1 Square Milimeter is equal to " + str(Milimeter_to_Hectare) + " Hectare.")
+        print(str(Milimeter) + " Milimeter is equal to " + str(Milimeter_to_Hectare) + " Hectare.")
 
     elif first_area_measurement == 9 and second_area_measurement == 11: #Milimeter to Are
-        Are = int(input("Enter You're Desired Number: "))
-        Milimeter_to_Are = 0.00000001 * Are
+        Milimeter = float(input("Enter You're Desired Number: "))
+        Milimeter_to_Are = 0.00000001 * Milimeter
 
-        print("1 Square Milimeter is equal to " + str(Milimeter_to_Are) + " Are.")
+        print(str(Milimeter) + " Milimeter is equal to " + str(Milimeter_to_Are) + " Are.")
 
     elif first_area_measurement == 10 and second_area_measurement == 1: #Hectare to Mile
-        Mile = int(input("Enter You're Desired Number: "))
-        Hectare_to_Mile = 0.003861 * Mile
+        Hectare = float(input("Enter You're Desired Number: "))
+        Hectare_to_Mile = 0.003861 * Hectare
 
-        print("1 Square Hectare is equal to " + str(Hectare_to_Mile) + " Mile.")
+        print(str(Hectare) + " Hectare is equal to " + str(Hectare_to_Mile) + " Mile.")
 
     elif first_area_measurement == 10 and second_area_measurement == 2: #Hectare to Acre
-        Acre = int(input("Enter You're Desired Number: "))
-        Hectare_to_Acre = 2.471054 * Acre
+        Hectare = float(input("Enter You're Desired Number: "))
+        Hectare_to_Acre = 2.471054 * Hectare
 
-        print("1 Square Hectare is equal to " + str(Hectare_to_Acre) + " Acre.")
+        print(str(Hectare) + " Hectare is equal to " + str(Hectare_to_Acre) + " Acre.")
 
     elif first_area_measurement == 10 and second_area_measurement == 3: #Hectare to Yard
-        Yard = int(input("Enter You're Desired Number: "))
-        Hectare_to_Yard = 11960 * Yard
+        Hectare = float(input("Enter You're Desired Number: "))
+        Hectare_to_Yard = 11960 * Hectare
 
-        print("1 Square Hectare is equal to " + str(Hectare_to_Yard) + " Yard.")
+        print(str(Hectare) + " Hectare is equal to " + str(Hectare_to_Yard) + " Yard.")
 
     elif first_area_measurement == 10 and second_area_measurement == 4: #Hectare to Foot
-        Foot = int(input("Enter You're Desired Number: "))
-        Hectare_to_Foot = 107639 * Foot
+        Hectare = float(input("Enter You're Desired Number: "))
+        Hectare_to_Foot = 107639 * Hectare
 
-        print("1 Square Hectare is equal to " + str(Hectare_to_Foot) + " Foot.")
+        print(str(Hectare) + " Hectare is equal to " + str(Hectare_to_Foot) + " Foot.")
 
     elif first_area_measurement == 10 and second_area_measurement == 5: #Hectare to Inch
-        Inch = int(input("Enter You're Desired Number: "))
-        Hectare_to_Inch = 15500031 * Inch
+        Hectare = float(input("Enter You're Desired Number: "))
+        Hectare_to_Inch = 15500031 * Hectare
 
-        print("1 Square Hectare is equal to " + str(Hectare_to_Inch) + " Inch.")
+        print(str(Hectare) + " Hectare is equal to " + str(Hectare_to_Inch) + " Inch.")
 
     elif first_area_measurement == 10 and second_area_measurement == 6: #Hectare to Kilometer
-        Kilometer = int(input("Enter You're Desired Number: "))
-        Hectare_to_Kilometer = 0.01 * Kilometer
+        Hectare = float(input("Enter You're Desired Number: "))
+        Hectare_to_Kilometer = 0.01 * Hectare
 
-        print("1 Square Hectare is equal to " + str(Hectare_to_Kilometer) + " Kilometer.")
+        print(str(Hectare) + " Hectare is equal to " + str(Hectare_to_Kilometer) + " Kilometer.")
 
     elif first_area_measurement == 10 and second_area_measurement == 7: #Hectare to Meter
-        Meter = int(input("Enter You're Desired Number: "))
-        Hectare_to_Meter = 10000 * Meter
+        Hectare = float(input("Enter You're Desired Number: "))
+        Hectare_to_Meter = 10000 * Hectare
 
-        print("1 Square Hectare is equal to " + str(Hectare_to_Meter) + " Meter.")
+        print(str(Hectare) + " Hectare is equal to " + str(Hectare_to_Meter) + " Meter.")
 
     elif first_area_measurement == 10 and second_area_measurement == 8: #Hectare to Centimeter
-        Centimeter = int(input("Enter You're Desired Number: "))
-        Hectare_to_Centimeter = 100000000 * Centimeter
+        Hectare = float(input("Enter You're Desired Number: "))
+        Hectare_to_Centimeter = 100000000 * Hectare
 
-        print("1 Square Hectare is equal to " + str(Hectare_to_Centimeter) + " Centimeter.")
+        print(str(Hectare) + " Hectare is equal to " + str(Hectare_to_Centimeter) + " Centimeter.")
 
     elif first_area_measurement == 10 and second_area_measurement == 9: #Hectare to Milimeter
-        Milimeter = int(input("Enter You're Desired Number: "))
-        Hectare_to_Milimeter = 10000000000 * Milimeter
+        Hectare = float(input("Enter You're Desired Number: "))
+        Hectare_to_Milimeter = 10000000000 * Hectare
 
-        print("1 Square Hectare is equal to " + str(Hectare_to_Milimeter) + " Milimeter.")
+        print(str(Hectare) + " Hectare is equal to " + str(Hectare_to_Milimeter) + " Milimeter.")
 
     elif first_area_measurement == 10 and second_area_measurement == 10: #Hectare to Hectare
         print("Invalid Conversion!!")
 
     elif first_area_measurement == 10 and second_area_measurement == 11: #Hectare to Are
-        Are = int(input("Enter You're Desired Number: "))
-        Hectare_to_Are = 100 * Are
+        Hectare = float(input("Enter You're Desired Number: "))
+        Hectare_to_Are = 100 * Hectare
 
-        print("1 Square Hectare is equal to " + str(Hectare_to_Are) + " Are.")
+        print(str(Hectare) + " Hectare is equal to " + str(Hectare_to_Are) + " Are.")
 
     elif first_area_measurement == 11 and second_area_measurement == 1: #Are to Mile
-        Mile = int(input("Enter You're Desired Number: "))
-        Are_to_Mile = 0.00003861 * Mile
+        Are = float(input("Enter You're Desired Number: "))
+        Are_to_Mile = 0.00003861 * Are
 
-        print("1 Square Are is equal to " + str(Are_to_Mile) + " Mile.")
+        print(str(Are) + " Are is equal to " + str(Are_to_Mile) + " Mile.")
 
     elif first_area_measurement == 11 and second_area_measurement == 2: #Are to Acre
-        Acre = int(input("Enter You're Desired Number: "))
-        Are_to_Acre = 0.024711 * Acre
+        Are = float(input("Enter You're Desired Number: "))
+        Are_to_Acre = 0.024711 * Are
 
-        print("1 Square Are is equal to " + str(Are_to_Acre) + " Acre.")
+        print(str(Are) + " Are is equal to " + str(Are_to_Acre) + " Acre.")
 
     elif first_area_measurement == 11 and second_area_measurement == 3: #Are to Yard
-        Yard = int(input("Enter You're Desired Number: "))
-        Are_to_Yard = 119.599005 * Yard
+        Are = float(input("Enter You're Desired Number: "))
+        Are_to_Yard = 119.599005 * Are
 
-        print("1 Square Are is equal to " + str(Are_to_Yard) + " Yard.")
+        print(str(Are) + " Are is equal to " + str(Are_to_Yard) + " Yard.")
 
     elif first_area_measurement == 11 and second_area_measurement == 4: #Are to Foot
-        Foot = int(input("Enter You're Desired Number: "))
-        Are_to_Foot = 1076 * Foot
+        Are = float(input("Enter You're Desired Number: "))
+        Are_to_Foot = 1076 * Are
 
-        print("1 Square Are is equal to " + str(Are_to_Foot) + " Foot.")
+        print(str(Are) + " Are is equal to " + str(Are_to_Foot) + " Foot.")
 
     elif first_area_measurement == 11 and second_area_measurement == 5: #Are to Inch
-        Inch = int(input("Enter You're Desired Number: "))
-        Are_to_Inch = 155000 * Inch
+        Are = float(input("Enter You're Desired Number: "))
+        Are_to_Inch = 155000 * Are
 
-        print("1 Square Are is equal to " + str(Are_to_Inch) + " Inch.")
+        print(str(Are) + " Are is equal to " + str(Are_to_Inch) + " Inch.")
 
     elif first_area_measurement == 11 and second_area_measurement == 6: #Are to Kilometer
-        Kilometer = int(input("Enter You're Desired Number: "))
-        Are_to_Kilometer = 0.0001 * Kilometer
+        Are = float(input("Enter You're Desired Number: "))
+        Are_to_Kilometer = 0.0001 * Are
 
-        print("1 Square Are is equal to " + str(Are_to_Kilometer) + " Kilometer.")
+        print(str(Are) + " Are is equal to " + str(Are_to_Kilometer) + " Kilometer.")
 
     elif first_area_measurement == 11 and second_area_measurement == 7: #Are to Meter
-        Meter = int(input("Enter You're Desired Number: "))
-        Are_to_Meter = 100 * Meter
+        Are = float(input("Enter You're Desired Number: "))
+        Are_to_Meter = 100 * Are
 
-        print("1 Square Are is equal to " + str(Are_to_Meter) + " Meter.")
+        print(str(Are) + " Are is equal to " + str(Are_to_Meter) + " Meter.")
 
     elif first_area_measurement == 11 and second_area_measurement == 8: #Are to Centimeter
-        Centimeter = int(input("Enter You're Desired Number: "))
-        Are_to_Centimeter = 1000000 * Centimeter
+        Are = float(input("Enter You're Desired Number: "))
+        Are_to_Centimeter = 1000000 * Are
 
-        print("1 Square Are is equal to " + str(Are_to_Centimeter) + " Centimeter.")
+        print(str(Are) + " Are is equal to " + str(Are_to_Centimeter) + " Centimeter.")
 
     elif first_area_measurement == 11 and second_area_measurement == 9: #Are to Milimeter
-        Milimeter = int(input("Enter You're Desired Number: "))
-        Are_to_Milimeter = 100000000 * Milimeter
+        Are = float(input("Enter You're Desired Number: "))
+        Are_to_Milimeter = 100000000 * Are
 
-        print("1 Square Are is equal to " + str(Are_to_Milimeter) + " Milimeter.")
+        print(str(Are) + " Are is equal to " + str(Are_to_Milimeter) + " Milimeter.")
 
     elif first_area_measurement == 11 and second_area_measurement == 10: #Are to Hectare
-        Hectare = int(input("Enter You're Desired Number: "))
-        Are_to_Hectare = 0.01 * Hectare
+        Are = float(input("Enter You're Desired Number: "))
+        Are_to_Hectare = 0.01 * Are
 
-        print("1 Square Are is equal to " + str(Are_to_Hectare) + " Hectare.")
+        print(str(Are) + " Are is equal to " + str(Are_to_Hectare) + " Hectare.")
 
     elif first_area_measurement == 11 and second_area_measurement == 11: #Are to Hectare
         print("Invalid Conversion!!")
+
+def BMI():
+    while True:
+        weight_kg = float(input("Enter You're Desired Weight(Kg): "))
+        height_m = float(input("Enter You're Desired Height(M): "))
+
+        bmi = weight_kg / (height_m ** 2)
+        format_bmi = "{:.2f}".format(bmi)
+
+        if 16 <= bmi < 18.5:
+            print("You're BMI is " + format_bmi + ", You should Gain some weight Asap. ")
+            break
+
+        elif 18.5 <= bmi < 24:
+            print("You're BMI is " + format_bmi + ", Congrats! You're weight is Normal. ")
+            break
+
+        elif 24 <= bmi < 30:
+            print("You're BMI is " + format_bmi + ", You're slightly Overweight , Watch out You're Diet. ")
+            break
+
+        elif 30 <= bmi < 35:
+            print("You're BMI is " + format_bmi + ", You've got first Degree Obesity , You should go on a Diet. ")
+            break
+
+        elif 35 <= bmi < 40:
+            print("You're BMI is " + format_bmi + ", You've got second Degree Obesity , You have to go on a Diet , It's almost Dangerous!")
+            break
+
+        elif bmi >= 40:
+            print("You're BMI is " + format_bmi + ", You've got third Degree Obesity , You have to go on a Diet , You're Health care is in Danger! ")
+            break
+        else:
+            print("Invalid Information due to super low BMI!\nPlease Enter again.")
+            continue
+
+def Data_Unit():
+    Print_Data_Menu()
+
+    first_data_conversion = input("-Which Data Unit You Desire to Convert From: ")
+    second_data_conversion = input("-Which Data Unit You Desire to Convert To: ")
+
+    if first_data_conversion == "1" and second_data_conversion == "1": # Bits to Bits
+        print("Invalid Conversion!!")
+
+    elif first_data_conversion == "1" and second_data_conversion == "2": # Bits to Bytes
+        Bits = float(input("Enter You're Desired Number: "))
+        Bits_to_Bytes = (1/8) * Bits
+        
+        print(str(Bits) + " Bits is equal to " + str(Bits_to_Bytes) + " Bytes.")
+
+    elif first_data_conversion == "1" and second_data_conversion == "3": # Bits to KiloBytes
+        Bits = float(input("Enter You're Desired Number: "))
+        Bits_to_KiloBytes = 0.000125 * Bits
+        
+        print(str(Bits) + " Bits is equal to " + str(Bits_to_KiloBytes) + " KiloBytes.")
+
+    elif first_data_conversion == "1" and second_data_conversion == "4": # Bits to MegaBytes
+        Bits = float(input("Enter You're Desired Number: "))
+        Bits_to_MegaBytes = 0.000000125 * Bits
+        
+        print(str(Bits) + " Bits is equal to " + str(Bits_to_MegaBytes) + " MegaBytes.")
+
+    elif first_data_conversion == "1" and second_data_conversion == "5": # Bits to GigaBytes
+        Bits = float(input("Enter You're Desired Number: "))
+        Bits_to_GigaBytes = 0.000000000125 * Bits
+        
+        print(str(Bits) + " Bits is equal to " + str(Bits_to_GigaBytes) + " GigaBytes.")
+
+    elif first_data_conversion == "1" and second_data_conversion == "6": # Bits to TeraBytes
+        Bits = float(input("Enter You're Desired Number: "))
+        Bits_to_TeraBytes = 0.000000000000125 * Bits
+        
+        print(str(Bits) + " Bits is equal to " + str(Bits_to_TeraBytes) + " TeraBytes.")
+
+    elif first_data_conversion == "1" and second_data_conversion == "7": # Bits to PetaBytes
+        Bits = float(input("Enter You're Desired Number: "))
+        Bits_to_PetaBytes = 0.000000000000000125 * Bits
+        
+        print(str(Bits) + " Bits is equal to " + str(Bits_to_PetaBytes) + " PetaBytes.")
+
+    elif first_data_conversion == "2" and second_data_conversion == "1": # Bytes to Bits
+        Bytes = float(input("Enter You're Desired Number: "))
+        Bytes_to_Bits = 8 * Bytes
+        
+        print(str(Bytes) + " Bytes is equal to " + str(Bytes_to_Bits) + " Bits.")
+
+    elif first_data_conversion == "2" and second_data_conversion == "2": # Bytes to Bytes
+        print("Invalid Conversion!!")
+
+    elif first_data_conversion == "2" and second_data_conversion == "3": # Bytes to KiloBytes
+        Bytes = float(input("Enter You're Desired Number: "))
+        Bytes_to_KiloBytes = 0.001 * Bytes
+        
+        print(str(Bytes) + " Bytes is equal to " + str(Bytes_to_KiloBytes) + " KiloBytes.")
+
+    elif first_data_conversion == "2" and second_data_conversion == "4": # Bytes to MegaBytes
+        Bytes = float(input("Enter You're Desired Number: "))
+        Bytes_to_MegaBytes = 0.000001 * Bytes
+        
+        print(str(Bytes) + " Bytes is equal to " + str(Bytes_to_MegaBytes) + " MegaBytes.")
+
+    elif first_data_conversion == "2" and second_data_conversion == "5": # Bytes to GigaBytes
+        Bytes = float(input("Enter You're Desired Number: "))
+        Bytes_to_GigaBytes = 0.000000001 * Bytes
+        
+        print(str(Bytes) + " Bytes is equal to " + str(Bytes_to_GigaBytes) + " GigaBytes.")
+
+    elif first_data_conversion == "2" and second_data_conversion == "6": # Bytes to TeraBytes
+        Bytes = float(input("Enter You're Desired Number: "))
+        Bytes_to_TeraBytes = 0.000000000001 * Bytes
+        
+        print(str(Bytes) + " Bytes is equal to " + str(Bytes_to_TeraBytes) + " TeraBytes.")
+
+    elif first_data_conversion == "2" and second_data_conversion == "7": # Bytes to PetaBytes
+        Bytes = float(input("Enter You're Desired Number: "))
+        Bytes_to_PetaBytes = 0.000000000000001 * Bytes
+        
+        print(str(Bytes) + " Bytes is equal to " + str(Bytes_to_PetaBytes) + " PetaBytes.")
+
+    elif first_data_conversion == "3" and second_data_conversion == "1": # KiloBytes to Bits
+        KiloBytes = float(input("Enter You're Desired Number: "))
+        KiloBytes_to_Bits = 8000 * KiloBytes
+        
+        print(str(KiloBytes) + " KiloBytes is equal to " + str(KiloBytes_to_Bits) + " KiloBytes.")
+
+    elif first_data_conversion == "3" and second_data_conversion == "2": # KiloBytes to Bytes
+        KiloBytes = float(input("Enter You're Desired Number: "))
+        KiloBytes_to_Bytes = 1000 * KiloBytes
+        
+        print(str(KiloBytes) + " KiloBytes is equal to " + str(KiloBytes_to_Bytes) + " Bytes.")
+
+    elif first_data_conversion == "3" and second_data_conversion == "3": # KiloBytes to KiloBytes
+        print("Invalid Conversion!!")
+
+    elif first_data_conversion == "3" and second_data_conversion == "4": # KiloBytes to MegaBytes
+        KiloBytes = float(input("Enter You're Desired Number: "))
+        KiloBytes_to_MegaBytes = 0.001 * KiloBytes
+        
+        print(str(KiloBytes) + " KiloBytes is equal to " + str(KiloBytes_to_MegaBytes) + " MegaBytes.")
+
+    elif first_data_conversion == "3" and second_data_conversion == "5": # KiloBytes to GigaBytes
+        KiloBytes = float(input("Enter You're Desired Number: "))
+        KiloBytes_to_GigaBytes = 0.000001 * KiloBytes
+        
+        print(str(KiloBytes) + " KiloBytes is equal to " + str(KiloBytes_to_GigaBytes) + " GigaBytes.")
+
+    elif first_data_conversion == "3" and second_data_conversion == "6": # KiloBytes to TeraBytes
+        KiloBytes = float(input("Enter You're Desired Number: "))
+        KiloBytes_to_TeraBytes = 0.000000001 * KiloBytes
+        
+        print(str(KiloBytes) + " KiloBytes is equal to " + str(KiloBytes_to_TeraBytes) + " TeraBytes.")
+
+    elif first_data_conversion == "3" and second_data_conversion == "7": # KiloBytes to PetaBytes
+        KiloBytes = float(input("Enter You're Desired Number: "))
+        KiloBytes_to_PetaBytes = 0.000000000001 * KiloBytes
+        
+        print(str(KiloBytes) + " KiloBytes is equal to " + str(KiloBytes_to_PetaBytes) + " PetaBytes.")
+
+    elif first_data_conversion == "4" and second_data_conversion == "1": # MegaBytes to Bits
+        MegaBytes = float(input("Enter You're Desired Number: "))
+        MegaBytes_to_Bits = 8000000 * MegaBytes
+        
+        print(str(MegaBytes) + " MegaBytes is equal to " + str(MegaBytes_to_Bits) + " Bits.")
+
+    elif first_data_conversion == "4" and second_data_conversion == "2": # MegaBytes to Bytes
+        MegaBytes = float(input("Enter You're Desired Number: "))
+        MegaBytes_to_Bytes = 1000000 * MegaBytes
+        
+        print(str(MegaBytes) + " MegaBytes is equal to " + str(MegaBytes_to_Bytes) + " Bytes.")
+
+    elif first_data_conversion == "4" and second_data_conversion == "3": # MegaBytes to KiloBytes
+        MegaBytes = float(input("Enter You're Desired Number: "))
+        MegaBytes_to_KiloBytes = 1000 * MegaBytes
+        
+        print(str(MegaBytes) + " MegaBytes is equal to " + str(MegaBytes_to_KiloBytes) + " KiloBytes.")
+
+    elif first_data_conversion == "4" and second_data_conversion == "4": # MegaBytes to MegaBytes
+        print("Invalid Conversion!!")
+
+    elif first_data_conversion == "4" and second_data_conversion == "5": # MegaBytes to GigaBytes
+        MegaBytes = float(input("Enter You're Desired Number: "))
+        MegaBytes_to_GigaBytes = 0.001 * MegaBytes
+        
+        print(str(MegaBytes) + " MegaBytes is equal to " + str(MegaBytes_to_GigaBytes) + " GigaBytes.")
+
+    elif first_data_conversion == "4" and second_data_conversion == "6": # MegaBytes to TeraBytes
+        MegaBytes = float(input("Enter You're Desired Number: "))
+        MegaBytes_to_TeraBytes = 0.000001 * MegaBytes
+        
+        print(str(MegaBytes) + " MegaBytes is equal to " + str(MegaBytes_to_TeraBytes) + " TeraBytes.")
+
+    elif first_data_conversion == "4" and second_data_conversion == "7": # MegaBytes to PetaBytes
+        MegaBytes = float(input("Enter You're Desired Number: "))
+        MegaBytes_to_PetaBytes = 0.000000001 * MegaBytes
+        
+        print(str(MegaBytes) + " MegaBytes is equal to " + str(MegaBytes_to_PetaBytes) + " PetaBytes.")
+
+    elif first_data_conversion == "5" and second_data_conversion == "1": # GigaBytes to Bits
+        GigaBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_Bits = 8000000000 * GigaBytes
+        
+        print(str(GigaBytes) + " GigaBytes is equal to " + str(GigaBytes_to_Bits) + " Bits.")
+
+    elif first_data_conversion == "5" and second_data_conversion == "2": # GigaBytes to Bytes
+        GigaBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_Bytes = 1000000000 * GigaBytes
+        
+        print(str(GigaBytes) + " GigaBytes is equal to " + str(GigaBytes_to_Bytes) + " Bytes.")
+
+    elif first_data_conversion == "5" and second_data_conversion == "3": # GigaBytes to KiloBytes
+        GigaBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_KiloBytes = 1000000 * GigaBytes
+        
+        print(str(GigaBytes) + " GigaBytes is equal to " + str(GigaBytes_to_KiloBytes) + " KiloBytes.")
+
+    elif first_data_conversion == "5" and second_data_conversion == "4": # GigaBytes to MegaBytes
+        GigaBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_MegaBytes = 1000 * GigaBytes
+        
+        print(str(GigaBytes) + " GigaBytes is equal to " + str(GigaBytes_to_MegaBytes) + " MegaBytes.")
+
+    elif first_data_conversion == "5" and second_data_conversion == "5": # GigaBytes to GigaBytes
+        print("Invalid Conversion!!")
+
+    elif first_data_conversion == "5" and second_data_conversion == "6": # GigaBytes to TeraBytes
+        GigaBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_TeraBytes = 0.001 * GigaBytes
+        
+        print(str(GigaBytes) + " GigaBytes is equal to " + str(GigaBytes_to_TeraBytes) + " TeraBytes.")
+
+    elif first_data_conversion == "5" and second_data_conversion == "7": # GigaBytes to PetaBytes
+        GigaBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_PetaBytes = 0.000001 * GigaBytes
+        
+        print(str(GigaBytes) + " GigaBytes is equal to " + str(GigaBytes_to_PetaBytes) + " PetaBytes.")
+
+    elif first_data_conversion == "6" and second_data_conversion == "1": # TeraBytes to Bits
+        TeraBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_Bits = 8000000000000 * TeraBytes
+        
+        print(str(TeraBytes) + " TeraBytes is equal to " + str(GigaBytes_to_Bits) + " Bits.")
+
+    elif first_data_conversion == "6" and second_data_conversion == "2": # TeraBytes to Bytes
+        TeraBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_Bytes = 1000000000000 * TeraBytes
+        
+        print(str(TeraBytes) + " TeraBytes is equal to " + str(GigaBytes_to_Bytes) + " Bytes.")
+
+    elif first_data_conversion == "6" and second_data_conversion == "3": # TeraBytes to KiloBytes
+        TeraBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_KiloBytes = 1000000000 * TeraBytes
+        
+        print(str(TeraBytes) + " TeraBytes is equal to " + str(GigaBytes_to_KiloBytes) + " KiloBytes.")
+
+    elif first_data_conversion == "6" and second_data_conversion == "4": # TeraBytes to MegaBytes
+        TeraBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_MegaBytes = 1000000 * TeraBytes
+        
+        print(str(TeraBytes) + " TeraBytes is equal to " + str(GigaBytes_to_MegaBytes) + " MegaBytes.")
+
+    elif first_data_conversion == "6" and second_data_conversion == "5": # TeraBytes to GigaBytes
+        TeraBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_GigaBytes = 1000 * TeraBytes
+        
+        print(str(TeraBytes) + " TeraBytes is equal to " + str(GigaBytes_to_GigaBytes) + " GigaBytes.")
+
+    elif first_data_conversion == "6" and second_data_conversion == "6": # TeraBytes to TeraBytes
+        print("Invalid Conversion!!")
+
+    elif first_data_conversion == "6" and second_data_conversion == "7": # TeraBytes to PetaBytes
+        TeraBytes = float(input("Enter You're Desired Number: "))
+        GigaBytes_to_PetaBytes = 1000 * TeraBytes
+        
+        print(str(TeraBytes) + " TeraBytes is equal to " + str(GigaBytes_to_PetaBytes) + " PetaBytes.")
+
+    elif first_data_conversion == "7" and second_data_conversion == "1": # PetaBytes to Bits
+        PetaBytes = float(input("Enter You're Desired Number: "))
+        PetaBytes_to_Bits = 8000000000000000 * PetaBytes
+        
+        print(str(PetaBytes) + " PetaBytes is equal to " + str(PetaBytes_to_Bits) + " Bits.")
+
+    elif first_data_conversion == "7" and second_data_conversion == "2": # PetaBytes to Bytes
+        PetaBytes = float(input("Enter You're Desired Number: "))
+        PetaBytes_to_Bytes = 1000000000000000 * PetaBytes
+        
+        print(str(PetaBytes) + " PetaBytes is equal to " + str(PetaBytes_to_Bytes) + " Bytes.")
+
+    elif first_data_conversion == "7" and second_data_conversion == "3": # PetaBytes to KiloBytes
+        PetaBytes = float(input("Enter You're Desired Number: "))
+        PetaBytes_to_KiloBytes = 1000000000000 * PetaBytes
+        
+        print(str(PetaBytes) + " PetaBytes is equal to " + str(PetaBytes_to_KiloBytes) + " KiloBytes.")
+
+    elif first_data_conversion == "7" and second_data_conversion == "4": # PetaBytes to MegaBytes
+        PetaBytes = float(input("Enter You're Desired Number: "))
+        PetaBytes_to_MegaBytes = 1000000000 * PetaBytes
+        
+        print(str(PetaBytes) + " PetaBytes is equal to " + str(PetaBytes_to_MegaBytes) + " MegaBytes.")
+
+    elif first_data_conversion == "7" and second_data_conversion == "5": # PetaBytes to GigaBytes
+        PetaBytes = float(input("Enter You're Desired Number: "))
+        PetaBytes_to_GigaBytes = 1000000 * PetaBytes
+        
+        print(str(PetaBytes) + " PetaBytes is equal to " + str(PetaBytes_to_GigaBytes) + " GigaBytes.")
+
+    elif first_data_conversion == "7" and second_data_conversion == "6": # PetaBytes to TeraBytes
+        PetaBytes = float(input("Enter You're Desired Number: "))
+        PetaBytes_to_TeraBytes = 1000 * PetaBytes
+        
+        print(str(PetaBytes) + " PetaBytes is equal to " + str(PetaBytes_to_TeraBytes) + " TeraBytes.")
+
+    elif first_data_conversion == "7" and second_data_conversion == "7": # PetaBytes to PetaBytes
+        print("Invalid Conversion!!")
+
+def Numeral_System():
+    while True:
+        Print_Numeral_System()
+
+        first_conversion = input("-Which Numeral System You Desire to Convert From: ")
+
+        second_conversion = input("-Which Numeral System You Desire to Convert To: ")
+
+        if first_conversion == "1" and second_conversion == "1": #Decimal To Decimal
+            print("\nInvalid Conversion!\n")
+            continue
+
+        elif first_conversion == "1" and second_conversion == "2": #Decimal To Binary
+            Decimal_Input = int(input("Enter You're Desired Decimal Number: "))
+
+            Decimal_To_Binary = bin(Decimal_Input)
+            print("\n\nThe Given Decimal Number in Binary is " + str(Decimal_To_Binary) + ".\n\n")
+            break
+
+        elif first_conversion == "1" and second_conversion == "3": #Decimal To Octal
+            Decimal_Input = int(input("Enter You're Desired Decimal Number: "))
+
+            Decimal_To_Octal = oct(Decimal_Input)
+            print("\n\nThe Given Decimal Number in Octal is " + str(Decimal_To_Octal) + ".\n\n")
+            break
+
+        elif first_conversion == "1" and second_conversion == "4": #Decimal To HexaDecimal
+            Decimal_Input = int(input("Enter You're Desired Decimal Number: "))
+
+            Decimal_To_HexaDecimal = hex(Decimal_Input)
+            print("\n\nThe Given Decimal Number in HexaDecimal is " + str(Decimal_To_HexaDecimal) + ".\n\n")
+            break
+
+        elif first_conversion == "2" and second_conversion == "1": #Binary To Decimal
+            Binary_Input = input("Enter You're Desired Binary Number: ")
+            Binary_Conversion = int(Binary_Input , 2)
+            
+            Binary_To_Decimal = int(Binary_Conversion)
+            print("\n\nThe Given Binary Number in Decimal is " + str(Binary_To_Decimal) + ".\n\n")
+            break
+
+        elif first_conversion == "2" and second_conversion == "2": #Binary To Binary
+            print("\nInvalid Conversion!\n")
+            continue
+
+        elif first_conversion == "2" and second_conversion == "3": #Binary To Octal
+            Binary_Input = input("Enter You're Desired Binary Number: ")
+            Binary_Conversion = int(Binary_Input , 2)
+            
+            Binary_To_Octal = oct(Binary_Conversion)
+            print("\n\nThe Given Binary Number in Octal is " + str(Binary_To_Octal) + ".\n\n")
+            break
+
+        elif first_conversion == "2" and second_conversion == "4": #Binary To HexaDecimal
+            Binary_Input = input("Enter You're Desired Binary Number: ")
+            Binary_Conversion = int(Binary_Input , 2)
+            
+            Binary_To_HexaDecimal = hex(Binary_Conversion)
+            print("\n\nThe Given Binary Number in HexaDecimal is " + str(Binary_To_HexaDecimal) + ".\n\n")
+            break
+
+        elif first_conversion == "3" and second_conversion == "1": #Octal To Decimal
+            Octal_Input = input("Enter You're Desired Octal Number: ")
+            Octal_Conversion = int(Octal_Input , 8)
+            
+            Octal_To_HexaDecimal = int(Octal_Conversion)
+            print("\n\nThe Given Octal Number in Decimal is " + str(Octal_To_HexaDecimal) + ".\n\n")
+            break
+
+        elif first_conversion == "3" and second_conversion == "2": #Octal To Binary
+            Octal_Input = input("Enter You're Desired Octal Number: ")
+            Octal_Conversion = int(Octal_Input , 8)
+            
+            Octal_To_Binary = bin(Octal_Conversion)
+            print("\n\nThe Given Octal Number in Binary is " + str(Octal_To_Binary) + ".\n\n")
+            break
+
+        elif first_conversion == "3" and second_conversion == "3": #Octal To Octal
+            print("\nInvalid Conversion!\n")
+            continue
+
+        elif first_conversion == "3" and second_conversion == "4": #Octal To HexaDecimal
+            Octal_Input = input("Enter You're Desired Octal Number: ")
+            Octal_Conversion = int(Octal_Input , 8)
+            
+            Octal_To_HexaDecimal = hex(Octal_Conversion)
+            print("\n\nThe Given Octal Number in HexaDecimal is " + str(Octal_To_HexaDecimal) + ".\n\n")
+            break
+
+        elif first_conversion == "4" and second_conversion == "1": #HexaDecimal To Decimal
+            HexaDecimal_Input = input("Enter You're Desired HexaDecimal Number: ")
+            HexaDecimal_Conversion = int(HexaDecimal_Input , 16)
+            
+            HexaDecimal_To_Decimal = int(HexaDecimal_Conversion)
+            print("\n\nThe Given HexaDecimal Number in Decimal is " + str(HexaDecimal_To_Decimal) + ".\n\n")
+            break
+
+        elif first_conversion == "4" and second_conversion == "2": #HexaDecimal To Binary
+            HexaDecimal_Input = input("Enter You're Desired HexaDecimal Number: ")
+            HexaDecimal_Conversion = int(HexaDecimal_Input , 16)
+            
+            HexaDecimal_To_Binary = bin(HexaDecimal_Conversion)
+            print("\n\nThe Given HexaDecimal Number in Binary is " + str(HexaDecimal_To_Binary) + ".\n\n")
+            break
+
+        elif first_conversion == "4" and second_conversion == "3": #HexaDecimal To Octal
+            HexaDecimal_Input = input("Enter You're Desired HexaDecimal Number: ")
+            HexaDecimal_Conversion = int(HexaDecimal_Input , 16)
+            
+            HexaDecimal_To_Octal = oct(HexaDecimal_Conversion)
+            print("\n\nThe Given HexaDecimal Number in Octal is " + str(HexaDecimal_To_Octal) + ".\n\n")
+            break
+            break
+
+        elif first_conversion == "4" and second_conversion == "4": #HexaDecimal To HexaDecimal
+            print("\nInvalid Conversion!\n")
+            continue
+        
+        else:
+            print("\nInvalid Input!\n")
+            continue
+
+def Temperature_Conversion():
+    while True:
+        Print_Temperature_Conversion()
+
+        first_conversion = input("-Which Temperature Unit You Desire to Convert From: ")
+
+        second_conversion = input("-Which Temperature Unit You Desire to Convert To: ")
+        
+        if first_conversion == "1" and second_conversion == "1": #Celsius To Celsius
+            print("\nInvalid Conversion!\n")
+            continue
+        
+        elif first_conversion == "1" and second_conversion == "2": #Celsius To Fahrenheit
+            Celsius = float(input("Enter You're Desired Celsius Temperature: "))
+            C_to_F = (Celsius * (9/5)) + 32
+            format_C_to_F = "{:.2f}".format(C_to_F)
+            print("You're Conversion from Celsius to Fahrenheit is: " + format_C_to_F + " F")
+            break
+            
+        elif first_conversion == "1" and second_conversion == "3": #Celsius To Kelvin
+            Celsius = float(input("Enter You're Desired Celsius Temperature: "))
+            C_to_K = Celsius + 273.15
+            format_C_to_K = "{:.2f}".format(C_to_K)
+            print("You're Conversion from Celsius to Kelvin is: " + format_C_to_K + " K")
+            break
+            
+        elif first_conversion == "2" and second_conversion == "1": #Fahrenheit To Celsius
+            Fahrenheit = float(input("Enter You're Desired Fahrenheit Temperature: "))
+            F_to_C = (Fahrenheit - 32) * (5/9)
+            format_F_to_C = "{:.2f}".format(F_to_C)
+            print("You're Conversion from Fahrenheit to Celsius is: " + format_F_to_C + " C")
+            break
+            
+        elif first_conversion == "2" and second_conversion == "2": #Fahrenheit To Fahrenheit
+            print("\nInvalid Conversion!\n")
+            continue
+        
+        elif first_conversion == "2" and second_conversion == "3": #Fahrenheit To Kelvin
+            Fahrenheit = float(input("Enter You're Desired Fahrenheit Temperature: "))
+            F_to_K = (Fahrenheit - 32) * (5/9) + 273.15
+            format_F_to_K = "{:.2f}".format(F_to_K)
+            print("You're Conversion from Fahrenheit to Kelvin is: " + format_F_to_K + " K")
+            break
+        
+        elif first_conversion == "3" and second_conversion == "1": #Kelvin To Celsius
+            Kelvin = float(input("Enter You're Desired Kelvin Temperature: "))
+            K_to_C = Kelvin - 273.15
+            format_K_to_C = "{:.2f}".format(K_to_C)
+            print("You're Conversion from Kelvin to Celsius is: " + format_K_to_C + " C")
+            break
+        
+        elif first_conversion == "3" and second_conversion == "2": #Kelvin To Fahrenheit
+            Kelvin = float(input("Enter You're Desired Kelvin Temperature: "))
+            K_to_F = (Kelvin - 273.15) * (9/5) + 32
+            format_K_to_F = "{:.2f}".format(K_to_F)
+            print("You're Conversion from Kelvin to Fahrenheit is: " + format_K_to_F + " F")
+            break
+        
+        elif first_conversion == "3" and second_conversion == "3": #Kelvin To Kelvin
+            print("\nInvalid Conversion!\n")
+            continue
+        
+        else: #Invalid Input
+            print("\nInvalid Input!\n")
+            continue
 
 while True: #Main Menu
     Print_Main_Menu()
@@ -1420,7 +1943,83 @@ while True: #Main Menu
                             else:
                                 print("Invalid option!\nEnter again: ")
                                 continue
+                    
+                    elif conversion_menu == "2": #BMI
+                        BMI()
+                        while True:
+                            Inner_Print()
+                            bmi_menu = input("-Waiting for You're Desire: ")
                             
+                            if bmi_menu == "1": #Continue
+                                BMI()
+                            
+                            elif bmi_menu == "-": #Back
+                                break
+
+                            elif bmi_menu == "q" or bmi_menu == "Q": #Exit
+                                sys.exit(1)
+                            
+                            else:
+                                print("Invalid option!\nEnter again: ")
+                                continue
+                    
+                    elif conversion_menu == "3": #Data Unit
+                        Data_Unit()
+                        while True:
+                            Inner_Print()
+                            data_menu = input("-Waiting for You're Desire: ")
+                            
+                            if data_menu == "1": #Continue
+                                Data_Unit()
+                            
+                            elif data_menu == "-": #Back
+                                break
+
+                            elif data_menu == "q" or data_menu == "Q": #Exit
+                                sys.exit(1)
+                            
+                            else:
+                                print("Invalid option!\nEnter again: ")
+                                continue
+                    
+                    elif conversion_menu == "4": #Numeral System
+                        Numeral_System()
+                        while True:
+                            Inner_Print()
+                            numeral_system_menu = input("-Waiting for You're Desire: ")
+                            
+                            if numeral_system_menu == "1": #Continue
+                                Numeral_System()
+                            
+                            elif numeral_system_menu == "-": #Back
+                                break
+
+                            elif numeral_system_menu == "q" or numeral_system_menu == "Q": #Exit
+                                sys.exit(1)
+                            
+                            else:
+                                print("Invalid option!\nEnter again: ")
+                                continue
+                    
+                    elif conversion_menu == "5": #Temperature Conversion
+                        Temperature_Conversion()
+                        while True:
+                            Inner_Print()
+                            temp_menu = input("-Waiting for You're Desire: ")
+                            
+                            if temp_menu == "1": #Continue
+                                Temperature_Conversion()
+                            
+                            elif temp_menu == "-": #Back
+                                break
+
+                            elif temp_menu == "q" or temp_menu == "Q": #Exit
+                                sys.exit(1)
+                            
+                            else:
+                                print("Invalid option!\nEnter again: ")
+                                continue
+                    
                     elif conversion_menu == "-": #Back
                         break
 
