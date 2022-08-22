@@ -17,7 +17,7 @@ expected_number = ran.randint(first_interval , end_interval)
 numbers =[]
 
 while True:
-    Try:
+    try:
         print("\nExpected Number: " + str(expected_number) + "\n")
         while True:
             AI_guess = ran.randint(first_interval , end_interval)
