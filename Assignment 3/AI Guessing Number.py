@@ -8,8 +8,7 @@ def Print_Smaller_Greater_Menu():
     + "\n| 2.Is it Greater?" + 6 * " " + "|" + "\n" + "|" + 23 * "_" + "|\n")
 
 def End_Print():
-    print("\nOnly " + str(len(numbers)) + " Tries Took AI To Guess The Desired Number." 
-    + "\n\n" + "List of Numbers That AI Has Guessed: \n" + str(numbers) + "\n")
+    print("\nOnly " + str(len(numbers)) + " Tries Took AI To Guess The Desired Number." + "\n\n" + "List of Numbers That AI Has Guessed: \n" + str(numbers) + "\n")
 
 first_interval = 0
 end_interval = 99
@@ -17,14 +16,14 @@ expected_number = ran.randint(first_interval , end_interval)
 numbers =[]
 
 while True:
-    try:
+    if end_interval - first_interval != 1:
         print("\nExpected Number: " + str(expected_number) + "\n")
         while True:
             AI_guess = ran.randint(first_interval , end_interval)
 
             if AI_guess in numbers:
                 continue
-
+            
             elif AI_guess not in numbers:
                 numbers.append(AI_guess)
                 break
@@ -32,18 +31,21 @@ while True:
         if AI_guess == expected_number:
             End_Print()
             break
-
+        
         Print_Smaller_Greater_Menu()
         small_great_meanu = input("-Waiting For You're Desire: ")
-
+        
         if small_great_meanu == "1":
             end_interval = AI_guess
             continue
-
+        
         elif small_great_meanu == "2":
             first_interval = AI_guess
             continue
-    except:
-        print("Unfortunately!! We Ran into Some Errors.\n\nRepeat The Guessing Process Again.")
+    
+    else:
+        print("\n\nUnfortunately!!\nWe Ran Into Some Errors.\nPlease Follow The Process Again.\n\n")
         numbers.clear()
+        first_interval = 0
+        end_interval = 99
         continue
