@@ -2,7 +2,7 @@
 import random as rnd
 
 while True:
-    first_interval , end_interval , random_numbers , period_of_numbers = -10**300 , 10**300 , list() , list()
+    first_interval , end_interval , random_numbers , period_of_numbers = -10e+300 , 10e+300 , list() , list()
     print("\n")
     length_of_list = int(input("Enter The Amount of Numbers You Desire: "))
 
