@@ -3,7 +3,7 @@ from tabulate import tabulate
 
 standard_words = list()
 
-str_input = input("Enter All You're Numbers and Seperate Them With Space: ")
+str_input = input("Enter All You're Words and Seperate Them With Space: ")
 
 words_list = str_input.split()
 
