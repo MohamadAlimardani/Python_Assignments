@@ -12,7 +12,6 @@ end_cyan = "\033[0;0m"
 str_input = input("Enter You're Desired String: ")
 
 str_input_v1 = str_input
-str_input_v2 = str_input
 
 number_of_letters = 0
 alphabets = ["a" , "b" , "c" , "d" , "e" , "f" , "g" , "h" , "i" , "j" , "k" , "l" , "m" ,
@@ -24,10 +23,7 @@ elements_list = ["." , "," , "/" , "\\" , "[" , "]" , "{" , "}" , "!" , "#" , "&
 space_enter_list = [" " , "\n"]
 
 #Counting Characters
-for se in space_enter_list:
-    str_input_v2 = str_input_v2.replace(se , "")
-
-number_of_chars = len(str_input_v2)
+number_of_chars = len(str_input)
 
 # Counting Words
 for el in elements_list:
