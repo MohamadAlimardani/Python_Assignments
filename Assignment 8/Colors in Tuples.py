@@ -8,8 +8,7 @@ def set_of_colors():
         color_input = input()
 
         if color_input == "-1":
-            colors_list = tuple(colors_list)
-            return colors_list
+            return tuple(colors_list)
 
         colors_list.append(color_input)
 
