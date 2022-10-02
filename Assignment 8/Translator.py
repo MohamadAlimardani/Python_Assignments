@@ -12,16 +12,16 @@ end_grey = "\033[0;0m"
 def Dicts(list_of_words):
     eng_to_per_dict = dict()
     per_to_eng_dict = dict()
-    flag = 30
+
 
     for i in range(30):
         eng_to_per_dict[list_of_words[i]] = list_of_words[flag]
-        flag += 1
 
-    flag = 30
+
+
     for i in range(30):
         per_to_eng_dict[list_of_words[flag]] = list_of_words[i]
-        flag += 1
+
 
     return eng_to_per_dict, per_to_eng_dict
 
