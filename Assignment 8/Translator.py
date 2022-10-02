@@ -16,8 +16,6 @@ def Dicts(list_of_words):
     n = 30
     for i in range(n):
         eng_to_per_dict[list_of_words[i]] = list_of_words[i+n]
-
-    for i in range(n):
         per_to_eng_dict[list_of_words[i+n]] = list_of_words[i]
 
     return eng_to_per_dict, per_to_eng_dict
