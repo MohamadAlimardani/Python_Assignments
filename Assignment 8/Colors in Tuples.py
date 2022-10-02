@@ -1,7 +1,7 @@
 
 import os
 
-def first_set_of_colors():
+def set_of_colors():
     colors_list = list()
     print("Enter You're Desired Set of Colors: ")
     while True:
@@ -19,8 +19,8 @@ def valid_colors():
             print(clr, end = "\t")
 
 os.system("cls")
-colors_1 = first_set_of_colors()
+colors_1 = set_of_colors()
 os.system("cls")
-colors_2 = first_set_of_colors()
+colors_2 = set_of_colors()
 os.system("cls")
 valid_colors()
