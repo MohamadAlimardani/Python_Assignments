@@ -51,8 +51,9 @@ def show_board():  # Printing Board
                    start_green + "━" + end_green],
                   [board[2][0], start_green + "┃" + end_green, board[2][1], start_green + "┃" + end_green, board[2][2]]]
     print()
-    for i in range(5):
-        for j in range(5):
+    n = len(board_show)
+    for i in range(n):
+        for j in range(n):
             if board_show[i][j] == None:
                 print(" ", end=" ")
 
@@ -139,9 +140,9 @@ def AI():  # AI Moves
 def is_player_win(player):  # Checking Win Conditions
     n = len(board)
     # Check Horizontaly
-    for i in range(len(board)):
+    for i in range(n):
         win = True
-        for j in range(len(board)):
+        for j in range(n):
             if board[i][j] != player:
                 win = False
                 break
@@ -150,9 +151,9 @@ def is_player_win(player):  # Checking Win Conditions
             return True
 
     # Check Vertically
-    for i in range(len(board)):
+    for i in range(n):
         win = True
-        for j in range(len(board)):
+        for j in range(n):
             if board[j][i] != player:
                 win = False
                 break
@@ -193,160 +194,3 @@ def convert_seconds(seconds):  # Converts Seconds
 
 os.system("cls")
 while True:
-    option = Main_Menu()
-    os.system("cls")
-
-    if option == "1": # PvA
-        start = tm.time()
-        turn = rnd.randint(0, 1) # 0 = Player , 1 = AI
-        while True:
-            if turn == 0: # Player's First Turn
-                Player(0 , p1) # - X -
-
-                if is_player_win(p1): # Player Won
-                    os.system("cls")
-                    result = pyfiglet.figlet_format(" Player \n      Won      " + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-                if is_board_filled(): # Draw
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("Draw!" + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-                
-                tm.sleep(1.5)
-                AI() # - O -
-
-                if is_player_win(p2): # AI Won
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("      AI     \n   Won   " + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-                if is_board_filled(): # Draw
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("Draw!" + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-            else: # AI's First Turn
-                AI() # - O -
-
-                if is_player_win(p2): # AI Won
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("      AI     \n   Won   " + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-                if is_board_filled(): # Draw
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("Draw!" + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-                Player(0 , p1) # - X -
-
-                if is_player_win(p1): # Player Won
-                    os.system("cls")
-                    result = pyfiglet.figlet_format(" Player \n      Won      " + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-                if is_board_filled(): # Draw
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("Draw!" + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-        stop = tm.time()
-        print("Time Spent:" , convert_seconds(stop - start))
-
-    elif option == "2": # PvP
-        start = tm.time()
-        turn = rnd.randint(0, 1) # 0 = Player 1 , 1 = Player 2
-        while True:
-            if turn == 0: # Player 1's First Turn
-                Player(1 , p1) # - X -
-
-                if is_player_win(p1): # Player 1 Won
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("Player 1\n       Won       " + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-                if is_board_filled(): # Draw
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("Draw!" + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-                Player(2 , p2) # - O -
-
-                if is_player_win(p2): # Player 2 Won
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("Player 2\n       Won       " + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-                if is_board_filled(): # Draw
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("Draw!" + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-            else: # Player 2's First Turn
-                Player(2 , p2) # - O -
-
-                if is_player_win(p2): # Player 2 Won
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("\nPlayer 2\n       Won       " + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-                if is_board_filled(): # Draw
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("\nDraw!" + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-                Player(1 , p1) # - X -
-
-                if is_player_win(p1): # Player 1 Won
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("\nPlayer 1\n       Won       " + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-                if is_board_filled(): # Draw
-                    os.system("cls")
-                    result = pyfiglet.figlet_format("\nDraw!" + "\n" , font = "banner3-d")
-                    print(start_pink + result + end_pink)
-                    clear_board()
-                    break
-
-        stop = tm.time()
-        print("Time Spent:" , convert_seconds(stop - start))
-
-    elif option.lower() == "q": # Exit
-        sys.exit(1)
-
-    else: # Invalid Option
-        result = pyfiglet.figlet_format("Invalid!" + "\n" , font = "banner3-d")
-        print(start_pink + result + end_pink)
-        continue
