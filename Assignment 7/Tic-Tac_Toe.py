@@ -203,7 +203,7 @@ while True:
             if turn == 0: # Player's First Turn
                 Player(0 , p1) # - X -
 
-                if is_player_win(p1): # Player 1 Won
+                if is_player_win(p1): # Player Won
                     os.system("cls")
                     result = pyfiglet.figlet_format(" Player \n      Won      " + "\n" , font = "banner3-d")
                     print(start_pink + result + end_pink)
@@ -220,7 +220,7 @@ while True:
                 tm.sleep(1.5)
                 AI() # - O -
 
-                if is_player_win(p2): # Player 2 Won
+                if is_player_win(p2): # AI Won
                     os.system("cls")
                     result = pyfiglet.figlet_format("      AI     \n   Won   " + "\n" , font = "banner3-d")
                     print(start_pink + result + end_pink)
@@ -237,7 +237,7 @@ while True:
             else: # AI's First Turn
                 AI() # - O -
 
-                if is_player_win(p2): # Player 2 Won
+                if is_player_win(p2): # AI Won
                     os.system("cls")
                     result = pyfiglet.figlet_format("      AI     \n   Won   " + "\n" , font = "banner3-d")
                     print(start_pink + result + end_pink)
@@ -253,7 +253,7 @@ while True:
 
                 Player(0 , p1) # - X -
 
-                if is_player_win(p1): # Player 1 Won
+                if is_player_win(p1): # Player Won
                     os.system("cls")
                     result = pyfiglet.figlet_format(" Player \n      Won      " + "\n" , font = "banner3-d")
                     print(start_pink + result + end_pink)
@@ -310,7 +310,7 @@ while True:
             else: # Player 2's First Turn
                 Player(2 , p2) # - O -
 
-                if is_player_win(p2): # Player 1 Won
+                if is_player_win(p2): # Player 2 Won
                     os.system("cls")
                     result = pyfiglet.figlet_format("\nPlayer 2\n       Won       " + "\n" , font = "banner3-d")
                     print(start_pink + result + end_pink)
@@ -326,7 +326,7 @@ while True:
 
                 Player(1 , p1) # - X -
 
-                if is_player_win(p1): # Player 2 Won
+                if is_player_win(p1): # Player 1 Won
                     os.system("cls")
                     result = pyfiglet.figlet_format("\nPlayer 1\n       Won       " + "\n" , font = "banner3-d")
                     print(start_pink + result + end_pink)
